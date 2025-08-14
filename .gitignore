@@ -1,7 +1,6 @@
 node_modules
 .sass-cache
 dist 
-scss
 README.md
 
 node_modules
@@ -13,3 +12,4 @@ dist-ssr
 .vscode/
 .sass-cache/
 
+scss/
