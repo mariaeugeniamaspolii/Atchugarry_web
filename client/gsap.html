@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./css/styles.min.css">
+
+    <title>Animación GSAP ScrollTrigger</title>
+
+
+
+
+</head>
+
+<body>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main class="mt-10 mt-md-12 container">
+                <section class="row justify-content-end mt-13">
+                    <article class="col-12 col-md-5 lansdcape">
+                        <img src="assets/img/MACA/Maca-2.webp" alt="Imagen principal">
+                    </article>
+                    <div class="col-0 col-md-1"></div>
+                    <article class="col-12 col-md-4 portrait">
+                        <img src="assets/img/MACA/Maca-3.webp" alt="Imagen principal">
+                    </article>
+                </section>
+
+                <section class="row justify-content-center mt-13">
+                    <article class="col-12 col-md-7 lansdcape">
+                        <img src="assets/img/MACA/Maca-4.webp" alt="Imagen principal">
+                    </article>
+                    <div class="col-0 col-md-1"></div>
+                </section>
+
+                <section class="row justify-content-between mt-13">
+                    <article class="col-12 col-md-4 square mt-13">
+                        <img src="assets/img/MACA/Maca-5.webp" alt="Imagen principal">
+                    </article>
+                    <div class="col-0 col-md-1"></div>
+                    <article class="col-12 col-md-5 standard">
+                        <img src="assets/img/MACA/Maca-6.webp" alt="Imagen principal">
+                    </article>
+                </section>
+
+                <section class="row justify-content-end mt-13">
+                    <article class="col-12 col-md-8 standard">
+                        <img src="assets/img/MACA/Maca-7.webp" alt="Imagen principal">
+                    </article>
+                </section>
+            </main>
+
+        </div>
+    </div>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+    <script>
+
+
+        gsap.registerPlugin(ScrollSmoother);
+
+        ScrollSmoother.create({
+            smooth: 2,
+        });
+    </script>
+</body>
+
+</html>
