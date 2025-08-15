@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box !important;
+}
+
+.extension-element-hidden {
+    display: none !important;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+
+html,
+body {
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: $primary !important;
+    background-color: $background !important;
+    @extend .text-primary;
+    font-weight: 300 !important;
+    font-family: 'Helvetica Neue ', sans-serif !important;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    z-index: 1000;
+    @extend .bg-background;
+    // box-shadow: 0 1px 12px 0 #0B23A20d;
+
+    a,
+    #languageButton {
+        @extend .text-primary;
+        font-weight: 600;
+
+        &:hover {
+            font-weight: 800;
+        }
+    }
+
+    #languageButton {
+        text-transform: uppercase !important;
+        cursor: pointer !important;
+    }
+}
+
+.row {
+    width: 100% !important;
+    align-items: flex-start;
+
+    &>* {
+        // @extend .px-4; 
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+[class*="col-"] {
+    @extend .px-0;
+}
+
+
+.btn {
+    font-family: var(--font-helvetica-neue) !important;
+    @extend .bg-white;
+    @extend .fw-bold;
+    @extend .py-3;
+    @extend .px-5;
+    @extend .rounded-pill;
+    @extend .d-inline-block;
+}
+
+p {
+    @extend .text-secondary;
+    @extend .m-0;
+}
+
+.fw-bold {
+    font-weight: 500 !important;
+}
+
+strong {
+    font-weight: 500 !important;
+    @extend .text-primary;
+}
+
+.body-lg {
+    @extend .fs-2;
+    @extend .lh-sm;
+}
+
+.body-light {
+    color: $fourth !important;
+
+    p {
+        color: inherit !important;
+    }
+}
+
+.fs-2 {
+    line-height: 1.3 !important;
+}
+
+a.btn-link {
+    @extend .text-uppercase;
+    @extend .fw-bold;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500 !important;
+    @extend .text-uppercase;
+}
+
+// h2 {
+//     font-size: 2.1vw !important;
+// }
+
+// h3 {
+//     font-size: 1.8vw !important;
+// }
+
+// h4 {
+//     font-size: 1.6vw !important;
+// }
+
+// h5 {
+//     font-size: 1.4vw !important;
+// }
+
+// h6 {
+//     font-size: 1vw !important;
+// }
+
+.caption {
+    // font-size: 3.5vw !important;
+}
+
+.card {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+
+    .card-image {
+        border-radius: 0;
+    }
+
+    .card-title {
+        text-transform: capitalize;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .desktop {
+        display: none !important;
+    }
+
+    .col-12,
+    .col-11,
+    .col-10,
+    .col-9,
+    .col-8,
+    .col-7,
+    .col-6,
+    .col-5,
+    .col-4 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mobile {
+        display: none !important;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        max-width: 92% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+// @media only screen and (min-width: 1200px) {
+
+//     h2 {
+//         font-size: 9rem !important;
+//     }
+
+//     h3 {
+//         font-size: 5.5rem !important;
+//     }
+
+//     h4 {
+//         font-size: 3rem !important;
+//     }
+// }
