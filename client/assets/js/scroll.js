@@ -22,9 +22,25 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     projects.forEach(function (project) {
         const imgs = project.querySelectorAll("img");
+        const texts = project.querySelectorAll("p");
 
         imgs.forEach(function (img) {
             gsap.fromTo(img, {
+                opacity: 0.5,
+                y: 100,
+            }, {
+                opacity: 1,
+                y: 0,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: project,
+                    end: "top bottom",
+                    scrub: 1,
+                }
+            });
+        });
+        texts.forEach(function (p) {
+            gsap.fromTo(p, {
                 opacity: 0.5,
                 y: 100,
             }, {

@@ -43,36 +43,42 @@
     animation-delay: 2s;
 }
 
+//INTRO SPEEDS TRY
+.fadeInUp-logo {
+    animation: fadeInUpMd 2s forwards;
+    animation-delay: 1.4s;
+}
+
+.fadeInUp-icon {
+    animation: fadeInUpLg 2s cubic-bezier(0.42, 0.14, 0.39, 1) forwards;
+    animation-delay: 1.2s;
+}
+
 @keyframes fadeInUp {
     to {
         transform: translateY(-100%);
     }
 }
 
-
-//INTRO SPEEDS TRY
-.fadeUpAway1 {
-    animation: fadeUpAway 1.2s ease-out forwards;
-    animation-delay: 1s;
-}
-
-.fadeUpAway2 {
-    animation: fadeUpAway 1.5s ease-in-out forwards;
-    animation-delay: 1.5s;
-}
-
-.fadeUpAway3 {
-    animation: fadeUpAway 1.8s cubic-bezier(0.42, 0.14, 0.39, 1) forwards;
-    animation-delay: 2s;
-}
-
-
-@keyframes fadeUpAway {
+@keyframes fadeInUpMd {
     to {
-        transform: translateY(-100%);
+        transform: translateY(-300%);
     }
 }
 
+@keyframes fadeInUpLg {
+    to {
+        transform: translateY(-2000%);
+    }
+}
+
+@media (max-width: 768px) {
+    @keyframes fadeInUpLg {
+        to {
+            transform: translateY(-1200%);
+        }
+    }
+}
 
 
 

@@ -88,12 +88,16 @@ nav {
 .tertiary-page {
 
     .navbar-brand,
+    .navbar-toggler,
     footer,
     p {
         filter: invert(39%) sepia(84%) saturate(773%) hue-rotate(88deg) brightness(90%) contrast(96%);
     }
 
     .navbar a {
+        @extend .text-tertiary;
+    }
+    span {
         @extend .text-tertiary;
     }
 }
@@ -168,7 +172,7 @@ nav {
     /* Mantiene proporción sin distorsión */
 }
 
-.image-container img {
+.image-container div {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -184,12 +188,12 @@ nav {
 
 .image-container:hover .hover-image {
     opacity: 1;
-    transform: scale(1.01);
+    // transform: scale(1.01);
     /* Efecto de zoom suave */
 
     &:hover {
         opacity: 1;
-        transform: scale(1.01);
+        // transform: scale(1.01);
     }
 }
 
