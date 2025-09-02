@@ -71,14 +71,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     article.innerHTML = `
                     <a href="detalle${encodedName}.html">
                         <div class="card">
-                        <div class="image-container ${project.imageCover.format}">
-                            <img class="card-image base-image" src="${project.imageCover.src}" alt="${project.title}">
-                            <img src="${project.imageHover}" class="hover-image hover-black" alt="Hover Image">
-                            <img src="${project.imageHover}" class="hover-image hover-white" alt="Hover Image">
-                        </div>
-                        <div class="card-body">
-                            <h2 class="card-title">${project.title}</h2>
-                        </div>
+                            <div class="image-container ${project.imageCover.format}">
+                                <img class="card-image base-image" src="${project.imageCover.src}" alt="${project.title}">
+                                <div class="hover-image bg-background">
+                                    <img src="${project.imageHover}" class="hover-image hover-white" alt="Hover Image">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title">${project.title}</h2>
+                            </div>
                         </div>
                     </a>
                 `;
