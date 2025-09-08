@@ -1,6 +1,6 @@
 node_modules
 .sass-cache
-dist 
+/dist 
 README.md
 
 node_modules
