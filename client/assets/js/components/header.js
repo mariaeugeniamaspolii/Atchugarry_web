@@ -9,8 +9,8 @@ async function insertarHeader() {
         <nav class="navbar navbar-expand-lg py-4 py-md-5">
           <div class="container-fluid px-lg-5">
             <a class="navbar-brand d-lg-none" href="index.html" style="max-width: 200px;">
-              <img class="object-fit-contain d-none d-md-block" src="assets/img/logo_atchugarry.svg" alt="Logo">
-            <img class="d-md-none" style="height: 24px;" src="assets/img/logo.svg">
+              <img class="object-fit-contain d-none d-md-block" src="./assets/img/logo_atchugarry.svg" alt="Logo">
+            <img class="d-md-none" style="height: 24px;" src="./assets/img/logo.svg">
             </a>
             <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -28,10 +28,10 @@ async function insertarHeader() {
                 <li class="nav-item"><a class="nav-link" href="experiencia.html">Experiencia</a></li>
                 <li class="nav-item d-none d-lg-block mx-lg-5" style="max-width: 220px">
                   <a class="navbar-brand" href="index.html">
-                    <img class="object-fit-contain image-fluid" src="assets/img/logo_atchugarry.svg" alt="Logo" height="30">
+                    <img class="object-fit-contain image-fluid" src="./assets/img/logo_atchugarry.svg" alt="Logo" height="30">
                   </a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="madera.html">Ingeniería en madera</a></li>
+                <li class="nav-item"><a class="nav-link" href="madera.html">ingeniería en madera</a></li>
                 <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
               </ul>
             </div>

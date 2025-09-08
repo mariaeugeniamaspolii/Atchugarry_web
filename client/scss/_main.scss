@@ -75,7 +75,9 @@ main.hero {
 nav {
     a {
         @extend .fw-light;
-        text-transform: none !important;
+        &::first-letter{
+            text-transform: uppercase !important;
+        }
 
         &:hover,
         &.active {
@@ -97,6 +99,7 @@ nav {
     .navbar a {
         @extend .text-tertiary;
     }
+
     span {
         @extend .text-tertiary;
     }
@@ -207,8 +210,11 @@ nav {
 
 .navigation-buttons {
     a {
-        text-transform: capitalize !important;
         font-weight: 300 !important;
+
+        &::first-letter {
+            text-transform: uppercase !important;
+        }
 
         &:hover {
             @extend .text-decoration-underline;

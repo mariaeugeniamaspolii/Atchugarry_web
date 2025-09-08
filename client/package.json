@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3"
+  },
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r css dist/css && cp -r assets dist/assets && cp *.html dist/ && cp robots.txt dist/"
   }
 }
