@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-<!-- Nav Icon -->
+    <!-- Nav Icon -->
     <link rel="icon" type="image/svg+xml" href="/assets/img/logo-white.svg" media="(prefers-color-scheme: dark)">
     <link rel="icon" type="image/svg+xml" href="/assets/img/logo-black.svg" media="(prefers-color-scheme: light)">
 
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/style.css">
 
     <link rel="preload" as="image" href="./assets/img/logo_atchugarry.svg">
-<link rel="preload" as="image" href="./assets/img/logo-black.svg">
+    <link rel="preload" as="image" href="./assets/img/logo-black.svg">
 
     <title>Maca</title>
 </head>
@@ -24,7 +24,7 @@
 
     <script src="./assets/js/components/header.js"></script>
 
-    <aside class="mt-10 mt-md-10 mt-xxl-13 container">
+    <aside class="mt-10 mt-md-11 mt-xxl-13 container">
         <section class="row" id="project-detail">
             <article class="col-12 col-md-3 project-description position-md-fixed">
                 <article class="col-12 d-md-none mb-5 lansdcape">
@@ -49,8 +49,8 @@
                     <strong>Finalizado</strong>
                     <p>Locación</p>
                     <strong>Manantiales, Punta del Este, UY</strong>
-                    <p>Año</p>
-                    <strong>2020</strong>
+                    <p class="d-md-none d-xxl-block">Año</p>
+                    <strong class="d-md-none d-xxl-block">2020</strong>
                 </div>
                 <div class="row navigation-buttons position-fixed" style=" bottom: 20px; z-index: 1000;">
                     <div class="col-auto pe-6">
@@ -120,7 +120,8 @@
             </main>
 
             <div id="footer-content"></div>
-            <div class="desktop" style="height: 160px;"></div>
+            <div class="d-none d-md-block d-xxl-none" style="height: 100px;"></div>
+            <div class="d-none d-xxl-block" style="height: 160px;"></div>
         </div>
     </div>
 
@@ -132,7 +133,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
-    
+
 </body>
 
 </html>
