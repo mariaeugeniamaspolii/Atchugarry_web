@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="./assets/img/logo.svg" />
+<!-- Nav Icon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/img/logo-white.svg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/logo-black.svg" media="(prefers-color-scheme: light)">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" name="description" content="" />
     <meta name="google-site-verification" content="32xLOpNe12qgXkPQcUR3EnITdPHQn9LXrP4MXI6So7Q" />
     <script src="./assets/js/bootstrap.bundle.js" defer></script>
@@ -12,7 +15,7 @@
     <link rel="stylesheet" href="./assets/style.css">
 
     <link rel="preload" as="image" href="./assets/img/logo_atchugarry.svg">
-<link rel="preload" as="image" href="./assets/img/logo.svg">
+<link rel="preload" as="image" href="./assets/img/logo-black.svg">
 
     <title>Maca</title>
 </head>
@@ -21,11 +24,14 @@
 
     <script src="./assets/js/components/header.js"></script>
 
-    <aside class="mt-10 mt-md-12 container">
+    <aside class="mt-10 mt-md-10 mt-xxl-13 container">
         <section class="row" id="project-detail">
-            <article class="col-12 col-md-3 project-description position-fixed">
+            <article class="col-12 col-md-3 project-description position-md-fixed">
+                <article class="col-12 d-md-none mb-5 lansdcape">
+                    <img src="./assets/img/MACA/Maca-1.webp" alt="Imagen principal">
+                </article>
                 <div class="row body-light">
-                    <h4 class="mb-5">MACA</h4>
+                    <h4 class="mb-5 mb-md-3 mb-xxl-5">MACA</h4>
                     <p>Proyecto</p>
                     <strong>Carlos Ott</strong>
                     <p>Construcción</p>
@@ -43,7 +49,7 @@
                     <p>Año</p>
                     <strong>2020</strong>
                 </div>
-                <div class="row navigation-buttons position-fixed" style=" bottom: 40px; z-index: 1000;">
+                <div class="row navigation-buttons position-fixed" style=" bottom: 20px; z-index: 1000;">
                     <div class="col-auto pe-6">
                         <a href="detalleIglesia.html">
                             <svg width="12" height="14" viewBox="0 0 12 14" fill="none"
@@ -73,45 +79,45 @@
     <div id="smooth-wrapper" style="pointer-events: none;">
         <div id="smooth-content" style="height: fit-content;">
 
-            <main class="mt-10 mt-md-12 container">
+            <main class="detail-imgs">
                 <section class="row">
                     <div class="col-0 col-md-4"></div>
-                    <article class="col-12 col-md-7 lansdcape">
+                    <article class="d-none d-md-block col-md-7 lansdcape">
                         <img src="./assets/img/MACA/Maca-1.webp" alt="Imagen principal">
                     </article>
                     <!-- <div class="col-0 col-md-1"></div> -->
                 </section>
 
-                <section class="row justify-content-end mt-13">
+                <section class="row justify-content-end mt-md-13">
                     <article class="col-12 col-md-5 lansdcape">
                         <img src="./assets/img/MACA/Maca-2.webp" alt="Imagen principal">
                     </article>
                     <div class="col-0 col-md-1"></div>
-                    <article class="col-12 col-md-4 portrait">
+                    <article class="col-12 col-md-4 mt-5 mt-md-0 portrait">
                         <img src="./assets/img/MACA/Maca-3.webp" alt="Imagen principal">
                     </article>
                 </section>
 
-                <section class="row justify-content-center mt-13">
+                <section class="row justify-content-center  mt-5 mt-md-13">
                     <article class="col-12 col-md-7 lansdcape article">
                         <img src="./assets/img/MACA/Maca-4.webp" alt="Imagen principal">
                     </article>
                     <div class="col-0 col-md-1"></div>
                 </section>
 
-                <section class="row justify-content-between mt-13">
-                    <article class="col-12 col-md-4 square mt-13">
+                <section class="row justify-content-between align-items-end mt-5 mt-md-13">
+                    <article class="col-5 col-md-4 square mt-0 mt-md-13">
                         <img src="./assets/img/MACA/Maca-5.webp" alt="Imagen principal">
                     </article>
-                    <div class="col-0 col-md-1"></div>
-                    <article class="col-12 col-md-5 standard">
+                    <div class="col-0 col-md-1 d-none d-md-block"></div>
+                    <article class="col-6 col-md-5 square">
                         <img src="./assets/img/MACA/Maca-6.webp" alt="Imagen principal">
                     </article>
                 </section>
             </main>
 
             <div id="footer-content"></div>
-            <div class="desktop" style="height: 120px;"></div>
+            <div class="desktop" style="height: 160px;"></div>
         </div>
     </div>
 

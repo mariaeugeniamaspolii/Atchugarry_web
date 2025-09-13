@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", async function () {
 async function insertarHeader() {
     const header = `
       <header>
-        <nav class="navbar navbar-expand-lg py-4 py-md-5">
+        <nav class="navbar navbar-expand-lg py-4 py-xxl-5">
           <div class="container-fluid px-lg-5">
             <a class="navbar-brand d-lg-none" href="index.html" style="max-width: 200px;">
               <img class="object-fit-contain d-none d-md-block" src="./assets/img/logo_atchugarry.svg" alt="Logo">
-            <img class="d-md-none" style="height: 24px;" src="./assets/img/logo.svg">
+            <img class="d-md-none object-fit-contain" style="height: 28px;" src="./assets/img/logo-black.svg">
             </a>
             <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"

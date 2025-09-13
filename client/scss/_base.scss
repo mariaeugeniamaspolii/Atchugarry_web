@@ -10,7 +10,6 @@ html {
     scroll-behavior: smooth !important;
 }
 
-
 html,
 body {
     // height: 100%;
@@ -26,6 +25,16 @@ body {
 
 body {
     min-height: 100vh;
+}
+
+@media (max-width: 576px) {
+
+    main,
+    .container-fluid {
+        padding-left: $spacer*6 !important;
+        /* o el valor que quieras */
+        padding-right: $spacer*6 !important;
+    }
 }
 
 .navbar {
@@ -77,9 +86,14 @@ body {
     @extend .d-inline-block;
 }
 
+a{
+    font-size: clamp(1rem, calc(0.8rem + 0.3vw), 1.125rem) !important;
+}
+
 p {
     @extend .text-primary;
     @extend .m-0;
+    font-size: clamp(1rem, calc(0.8rem + 0.3vw), 1.125rem) !important;
 }
 
 .fw-bold {
@@ -87,12 +101,13 @@ p {
 }
 
 strong {
+    font-size: clamp(1rem, calc(0.8rem + 0.3vw), 1.125rem) !important;
     font-weight: 500 !important;
     @extend .text-primary;
 }
 
 .body-lg {
-    font-size: clamp(1rem, 1.8vw, 2rem) !important;
+    font-size: clamp(1.4rem, 1.8vw, 2rem) !important;
     @extend .lh-sm;
 }
 
