@@ -74,6 +74,7 @@ main {
 }
 
 main.hero {
+    @extend .mt-12;
     @extend .mt-md-12;
 }
 
