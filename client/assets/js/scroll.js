@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Inicializa GSAP después de que el footer esté cargado
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-    smoother = ScrollSmoother.create({
-        wrapper: '#smooth-wrapper',
-        content: '#smooth-content',
-        smooth: 1.5,
-        effects: true
+    gsap.matchMedia().add("(min-width: 1025px)", () => {
+        smoother = ScrollSmoother.create({
+            wrapper: '#smooth-wrapper',
+            content: '#smooth-content',
+            smooth: 1.5,
+            effects: true
+        });
     });
 
     // Animaciones de las imágenes
