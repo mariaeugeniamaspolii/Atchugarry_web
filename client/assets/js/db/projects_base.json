@@ -1,10 +1,8 @@
 [
     {
         "title": "maca",
-        "category": "Diseño y Construcción./n Ingeniería en madera.",
-        "year": "2019",
         "description": {
-            "project": "Carlos Ott",
+            "project": "Arq. Carlos Ott",
             "construction": "Atchugarry",
             "structure": "Atchugarry Ingeniería en Madera",
             "category": "Museo",
@@ -22,37 +20,37 @@
             },
             {
                 "src": "./assets/img/MACA/Maca-2.webp",
-                "format": "portrait",
+                "format": "standard",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/MACA/Maca-3.webp",
-                "format": "square",
+                "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/MACA/Maca-4.webp",
-                "format": "standard",
+                "format": "landscape",
                 "colSize": "col-12 col-md-8",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/MACA/Maca-5.webp",
-                "format": "square",
+                "format": "standard",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/MACA/Maca-6.webp",
-                "format": "standard",
+                "format": "square",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/MACA/Maca-7.webp",
-                "format": "standard",
+                "format": "landscape",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             }
@@ -65,58 +63,56 @@
     },
     {
         "title": "iglesia",
-        "category": "Diseño y Construcción.",
-        "year": "2023",
         "description": {
-            "project": "Carlos Ott",
+            "project": "Arq. Diego Algorta",
             "construction": "Atchugarry",
             "structure": "Atchugarry Ingeniería en Madera",
-            "category": "Museo",
-            "client": "Fundación Pablo Atchugarry",
+            "category": "Iglesia",
+            "client": "Iglesia de la Transfiguración de Cristo",
             "status": "Finalizado",
-            "location": "Manantiales, Punta del Este, UY",
-            "year": "2020"
+            "location": "Bañados de Carrasco, MVD, UY",
+            "year": "2022"
         },
         "images": [
             {
                 "src": "./assets/img/IGLESIA/Iglesia-1.webp",
-                "format": "landscape",
-                "colSize": "col-12 col-md-7",
+                "format": "square",
+                "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-2.webp",
-                "format": "portrait",
+                "format": "landscape",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-3.webp",
-                "format": "square",
+                "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-4.webp",
-                "format": "standard",
+                "format": "square",
                 "colSize": "col-12 col-md-8",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-5.webp",
-                "format": "square",
+                "format": "standard",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-6.webp",
-                "format": "standard",
+                "format": "portrait",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-7.webp",
-                "format": "standard",
+                "format": "square",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             }
@@ -129,34 +125,32 @@
     },
     {
         "title": "kafka",
-        "category": "Diseño y Construcción.",
-        "year": "2023",
         "description": {
-            "project": "Carlos Ott",
+            "project": "Atchugarry",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera",
-            "category": "Museo",
-            "client": "Fundación Pablo Atchugarry",
-            "status": "Finalizado",
-            "location": "Manantiales, Punta del Este, UY",
-            "year": "2020"
+            "structure": "Atchugarry Ingeniería en Madera **",
+            "category": "Torre de vivienda",
+            "client": "Kafka",
+            "status": "En construcción",
+            "location": "Palermo, MVD, UY",
+            "year": "2024"
         },
         "images": [
             {
                 "src": "./assets/img/KAFKA/Kafka-1.webp",
-                "format": "square",
-                "colSize": "col-12 col-md-7",
+                "format": "portrait",
+                "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/KAFKA/Kafka-2.webp",
-                "format": "square",
+                "format": "standard",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/KAFKA/Kafka-3.webp",
-                "format": "square",
+                "format": "standard",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             }
@@ -169,52 +163,50 @@
     },
     {
         "title": "arbet",
-        "category": "Diseño y Construcción.",
-        "year": "2023",
         "description": {
-            "project": "Carlos Ott",
+            "project": "Atchugarry",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera",
-            "category": "Museo",
-            "client": "Fundación Pablo Atchugarry",
+            "structure": "Atchugarry Ingeniería en Madera **",
+            "category": "Torre de vivienda",
+            "client": "Arbet",
             "status": "Finalizado",
-            "location": "Manantiales, Punta del Este, UY",
-            "year": "2020"
+            "location": "Punta Carretas, MVD, UY",
+            "year": "2022"
         },
         "images": [
             {
                 "src": "./assets/img/ARBET/Arbet-1.webp",
-                "format": "square",
+                "format": "landscape",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-2.webp",
-                "format": "square",
+                "format": "landscape",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-3.webp",
-                "format": "square",
+                "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-4.webp",
-                "format": "square",
+                "format": "portrait",
                 "colSize": "col-12 col-md-8",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-5.webp",
-                "format": "square",
+                "format": "landscape",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-6.webp",
-                "format": "square",
+                "format": "portrait",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             }
@@ -227,22 +219,20 @@
     },
     {
         "title": "austen",
-        "category": "Diseño y Construcción.",
-        "year": "2023",
         "description": {
-            "project": "Carlos Ott",
+            "project": "Atchugarry",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera",
-            "category": "Museo",
-            "client": "Fundación Pablo Atchugarry",
+            "structure": "Atchugarry Ingeniería en Madera **",
+            "category": "Torre de vivienda",
+            "client": "Austen",
             "status": "Finalizado",
-            "location": "Manantiales, Punta del Este, UY",
-            "year": "2020"
+            "location": "La Blanqueada, MVD, UY",
+            "year": "2023"
         },
         "images": [
             {
                 "src": "./assets/img/AUSTEN/Austen-1.webp",
-                "format": "standard",
+                "format": "landscape",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             },
@@ -254,25 +244,25 @@
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-3.webp",
-                "format": "standard",
+                "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-4.webp",
-                "format": "standard",
+                "format": "landscape",
                 "colSize": "col-12 col-md-8",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-5.webp",
-                "format": "standard",
+                "format": "square",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-6.webp",
-                "format": "standard",
+                "format": "portrait",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             }
@@ -285,46 +275,44 @@
     },
     {
         "title": "joyce",
-        "category": "Diseño y Construcción.",
-        "year": "2023",
         "description": {
-            "project": "Carlos Ott",
+            "project": "Atchugarry",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera",
-            "category": "Museo",
-            "client": "Fundación Pablo Atchugarry",
+            "structure": "Atchugarry Ingeniería en Madera **",
+            "category": "Complejo de viviendas",
+            "client": "Joyce",
             "status": "Finalizado",
-            "location": "Manantiales, Punta del Este, UY",
-            "year": "2020"
+            "location": "San José de Carrasco, CDLC, UY",
+            "year": "2023"
         },
         "images": [
             {
                 "src": "./assets/img/JOYCE/Joyce-1.webp",
-                "format": "portrait",
-                "colSize": "col-12 col-md-7",
+                "format": "square",
+                "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-2.webp",
-                "format": "portrait",
+                "format": "landscape",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-3.webp",
-                "format": "portrait",
+                "format": "standard",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-4.webp",
-                "format": "portrait",
+                "format": "landscape",
                 "colSize": "col-12 col-md-8",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-5.webp",
-                "format": "portrait",
+                "format": "standard",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             }
@@ -337,28 +325,26 @@
     },
     {
         "title": "zfdp",
-        "category": "Diseño y Construcción.",
-        "year": "2023",
         "description": {
-            "project": "Carlos Ott",
+            "project": "BGP Arquitectura",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera",
-            "category": "Museo",
-            "client": "Fundación Pablo Atchugarry",
-            "status": "Finalizado",
-            "location": "Manantiales, Punta del Este, UY",
-            "year": "2020"
+            "structure": "Atchugarry Ingeniería en Madera **",
+            "category": "Edificio de oficinas en Zona Franca",
+            "client": "Zona Franca del Plata",
+            "status": "En construcción",
+            "location": "Colonia del Sacramento, Colonia, UY",
+            "year": "2025"
         },
         "images": [
             {
                 "src": "./assets/img/ZFDP/Zfdp-1.webp",
-                "format": "square",
-                "colSize": "col-12 col-md-7",
+                "format": "landscape",
+                "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/ZFDP/Zfdp-2.webp",
-                "format": "square",
+                "format": "standard",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },

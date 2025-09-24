@@ -86,7 +86,7 @@ body {
     @extend .d-inline-block;
 }
 
-a{
+a {
     font-size: clamp(1rem, calc(0.8rem + 0.3vw), 1.125rem) !important;
 }
 
@@ -181,8 +181,11 @@ h6 {
     }
 }
 
-@media only screen and (max-width: 991px) {
-    .desktop {
+//mobile
+@media only screen and (max-width: 767px) {
+
+    .desktop,
+    .tablet {
         display: none !important;
     }
 
@@ -200,8 +203,19 @@ h6 {
     }
 }
 
+//tablet
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .mobile,
+    .desktop:not(.tablet) {
+        display: none !important;
+    }
+}
+
+//desktop
 @media only screen and (min-width: 992px) {
-    .mobile {
+
+    .mobile{
         display: none !important;
     }
 
@@ -215,18 +229,3 @@ h6 {
         padding-right: 0 !important;
     }
 }
-
-// @media only screen and (min-width: 1200px) {
-
-//     h2 {
-//         font-size: 9rem !important;
-//     }
-
-//     h3 {
-//         font-size: 5.5rem !important;
-//     }
-
-//     h4 {
-//         font-size: 3rem !important;
-//     }
-// }
