@@ -59,7 +59,8 @@
             "src": "./assets/img/MACA/Maca-4.webp",
             "format": "landscape"
         },
-        "imageHover": "./assets/img/HOVER/MACA_Hover.webp"
+        "imageHover": "./assets/img/HOVER/MACA_Hover.webp",
+        "template": 0
     },
     {
         "title": "iglesia",
@@ -83,37 +84,37 @@
             {
                 "src": "./assets/img/IGLESIA/Iglesia-2.webp",
                 "format": "landscape",
-                "colSize": "col-12 col-md-5",
+                "colSize": "col-12",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-3.webp",
                 "format": "portrait",
-                "colSize": "col-12 col-md-4",
+                "colSize": "col-12 col-md-4 mt-5 mt-md-15",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-4.webp",
                 "format": "square",
-                "colSize": "col-12 col-md-8",
+                "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-5.webp",
                 "format": "standard",
-                "colSize": "col-12 col-md-4",
+                "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-6.webp",
-                "format": "portrait",
+                "format": "square",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-7.webp",
                 "format": "square",
-                "colSize": "col-12 col-md-7",
+                "colSize": "col-12 col-md-3",
                 "alignment": "justify-content-start"
             }
         ],

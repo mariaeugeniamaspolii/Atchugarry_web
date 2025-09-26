@@ -1,43 +1,103 @@
-import { logoLoader } from './components/logoLoader.js';
-
 document.addEventListener("DOMContentLoaded", function () {
-    // Get name from URL
     const urlParams = new URLSearchParams(window.location.search);
-    const projectName = urlParams.get('project') || "maca";;
+    const projectName = urlParams.get('project') || "maca";
 
     // Change page title "Atchugarry - [Name project]"
-    document.title = `Atchugarry - ${projectName.replace(/\b\w/g, (char) => char.toUpperCase())}`;
+    document.title = `${projectName.replace(/\b\w/g, (char) => char.toUpperCase())}`;
 
-    // Get project detail container
+    // Contenedor de proyecto
     const projectDetail = document.getElementById("project-detail");
-    projectDetail.innerHTML = logoLoader();
+    const imgDetails = document.getElementById("detail-imgs");
 
-    // fetch to JSON
-    fetch('./assets/js/db/projects_base.json')
-        .then(response => response.json()) // Convert res to JSON
-        .then(projects => {
-
+    // Primero cargamos ambos JSON: proyectos y templates
+    Promise.all([
+        fetch('./assets/js/db/projects_base.json').then(res => res.json()),
+        fetch('./assets/js/db/templates.json').then(res => res.json())
+    ])
+        .then(([projects, templates]) => {
+            console.log('projects cargados:', projects);   // Ver todos los proyectos
+            console.log('templates cargados:', templates);
             // Find project + index
             const projectIndex = projects.findIndex(p => p.title === projectName.toLowerCase());
             const total = projects.length;
             const project = projects[projectIndex];
-
-            function replaceNewlinesWithBR(text) {
-                return text.replace(/\n/g, "<br>");
+            if (projectIndex === -1) {
+                projectDetail.innerHTML = "<p>Proyecto no encontrado.</p>";
+                return;
             }
 
-            if (project) {
-                projectDetail.classList.remove('vh-85');
+            const templateIndex = project.template || 0;
+            const template = templates[templateIndex];
+            console.log('template: ', template);
 
-                // índice anterior y siguiente con efecto carrusel
-                const prevIndex = (projectIndex - 1 + total) % total;
-                console.log('prevIndex: ', prevIndex);
-                const nextIndex = (projectIndex + 1) % total;
-                console.log('nextIndex: ', nextIndex);
+            // Limpiamos contenedor de imágenes
+            imgDetails.innerHTML = "";
 
-                // Fill project values
-                projectDetail.innerHTML = `
-            <article class="col-12 col-md-3 project-description position-md-fixed">
+            // Renderizamos las secciones según la plantilla
+            template.forEach(sectionDef => {
+                const section = document.createElement("section");
+                section.className = sectionDef.alignment;
+            
+                sectionDef.articles.forEach(articleDef => {
+                    // Caso con varios hijos
+                    if (articleDef.children) {
+                        const article = document.createElement("article");
+                        article.className = articleDef.wrapperClass || "";
+            
+                        articleDef.children.forEach(childDef => {
+                            const imgData = project.images[childDef.index];
+                            if (!imgData) return; // si no hay imagen, saltamos
+            
+                            const div = document.createElement("div");
+                            div.className = childDef.wrapperClass || "";
+            
+                            const img = document.createElement("img");
+                            img.src = imgData.src;
+                            img.alt = project.title;
+            
+                            div.appendChild(img);
+                            article.appendChild(div);
+                        });
+            
+                        // solo agregamos el article si tiene hijos válidos
+                        if (article.children.length > 0) {
+                            section.appendChild(article);
+                        }
+                    } 
+                    // Caso simple (una sola imagen por article)
+                    else {
+                        const imgData = project.images[articleDef.index];
+                        if (!imgData) return; // si no hay imagen, no creamos nada
+            
+                        const article = document.createElement("article");
+                        article.className = `${articleDef.colSize || imgData.colSize} ${articleDef.format || imgData.format}`;
+            
+                        const img = document.createElement("img");
+                        img.src = imgData.src;
+                        img.alt = project.title;
+            
+                        article.appendChild(img);
+                        section.appendChild(article);
+                    }
+                });
+            
+                // 🔑 solo agregamos la sección si contiene algo
+                if (section.children.length > 0) {
+                    imgDetails.appendChild(section);
+                }
+            });
+            
+
+
+            // índice anterior y siguiente con efecto carrusel
+            const prevIndex = (projectIndex - 1 + total) % total;
+            console.log('prevIndex: ', prevIndex);
+            const nextIndex = (projectIndex + 1) % total;
+            console.log('nextIndex: ', nextIndex);
+
+            // Aquí podés seguir rellenando la info del proyecto y botones de navegación
+            projectDetail.innerHTML = `
+        <article class="col-12 col-md-3 project-description position-md-fixed">
                 <article class="col-12 d-md-none mb-5 lansdcape">
                     <img src="${project.images[0].src}" alt="Imagen principal">
                 </article>
@@ -91,34 +151,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 </article>
                 <div class="col-0 col-md-3"></div>
                 <div class="col-0 col-md-1"></div>
-                <article class="col-12 ${project.images[0].colSize} ${project.images[0].format}">
-                    <img src="${project.images[0].src}" alt="Imagen principal">
-                </article>
                 `;
-
-                // Add sections
-                project.images.forEach((image, index) => {
-                    if (index > 0) {
-                        const section = document.createElement('section');
-                        section.className = `row justify-content-${index % 2 === 0 ? 'end' : 'start'} mt-13`;
-                        const article = document.createElement('article');
-                        article.className = `col-12 col-md-5 landscape`;
-                        const img = document.createElement('img');
-                        img.src = image.src;
-                        img.alt = "Imagen principal";
-                        article.appendChild(img);
-                        section.appendChild(article);
-                        projectDetail.appendChild(section);
-                    }
-                });
-            } else {
-                // If project doesn't exist show msg
-                projectDetail.innerHTML = "<p>Proyecto no encontrado.</p>";
-            }
         })
-        .catch(error => {
-            console.error("Error al cargar el archivo JSON:", error);
-            projectDetail.classList.add('vh-85');
+        .catch(err => {
+            console.error("Error al cargar JSON:", err);
             projectDetail.innerHTML = "<p>Hubo un error al cargar el proyecto.</p>";
         });
 });
