@@ -1,7 +1,7 @@
 [
     [
         {
-            "alignment": "row justify-content-end",
+            "alignment": "row justify-content-end d-none d-md-block",
             "articles": [
                 {"index": 0}
             ]
