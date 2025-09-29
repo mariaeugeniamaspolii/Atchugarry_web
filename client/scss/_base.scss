@@ -185,7 +185,7 @@ h6 {
 @media only screen and (max-width: 767px) {
 
     .desktop,
-    .tablet {
+    .tablet:not(.mobile) {
         display: none !important;
     }
 
@@ -206,7 +206,7 @@ h6 {
 //tablet
 @media (min-width: 768px) and (max-width: 991px) {
 
-    .mobile,
+    .mobile:not(.tablet),
     .desktop:not(.tablet) {
         display: none !important;
     }
