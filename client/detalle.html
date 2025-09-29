@@ -19,6 +19,17 @@
 
     <title>Atchugarry</title>
 </head>
+<script>
+    document.documentElement.style.overflow = 'hidden'; 
+    document.body.style.overflow = 'hidden';           
+</script>
+
+<style>
+    /* Oculta la barra de scroll */
+    .lock-scroll::-webkit-scrollbar {
+        display: none;
+    }
+</style>
 
 <body>
 
@@ -31,17 +42,18 @@
     </aside>
     <div id="smooth-wrapper" style="pointer-events: none;">
         <div id="smooth-content" style="height: fit-content;">
-            <main class="mt-5 mt-md-11 mt-xxl-13 detail-imgs" id="detail-imgs">
+            <main class="mt-5 mt-md-11 mt-xxl-13 vh-100 detail-imgs" id="detail-imgs">
                 <div class="align-content-center flex-wrap vh-75">
                     <svg class="logoLoader" width="90" height="35" viewBox="-6 0 94 45" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path width="100px" height="100px" x="0" y="100" d="M6 55L32 0L58 55" stroke="black"
-                    stroke-width="10" />
-                </svg>
-            </div>
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path width="100px" height="100px" x="0" y="100" d="M6 55L32 0L58 55" stroke="black"
+                            stroke-width="10" />
+                    </svg>
+                </div>
             </main>
 
             <div id="footer-content"></div>
+            <div class="d-block d-md-none" style="height: 64px;"></div>
             <div class="d-none d-md-block d-xxl-none" style="height: 100px;"></div>
             <div class="d-none d-xxl-block" style="height: 160px;"></div>
         </div>

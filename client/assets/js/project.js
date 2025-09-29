@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch('./assets/js/db/templates.json').then(res => res.json())
     ])
         .then(([projects, templates]) => {
+            imgDetails.classList.remove('vh-100')
+            document.documentElement.style.overflow = ''; 
+            document.body.style.overflow = '';    
             console.log('projects cargados:', projects);   // Ver todos los proyectos
             console.log('templates cargados:', templates);
             // Find project + index
@@ -37,65 +40,66 @@ document.addEventListener("DOMContentLoaded", function () {
             template.forEach(sectionDef => {
                 const section = document.createElement("section");
                 section.className = sectionDef.alignment;
-            
+
                 sectionDef.articles.forEach(articleDef => {
                     // Caso con varios hijos
                     if (articleDef.children) {
                         const article = document.createElement("article");
                         article.className = articleDef.wrapperClass || "";
-            
+
                         articleDef.children.forEach(childDef => {
                             const imgData = project.images[childDef.index];
                             if (!imgData) return; // si no hay imagen, saltamos
-            
+
                             const div = document.createElement("div");
-                            div.className = childDef.wrapperClass || "";
-            
+                            div.className = [imgData.colSize, imgData.format, childDef.wrapperClass].filter(Boolean).join(" ");
+
+
                             const img = document.createElement("img");
                             img.src = imgData.src;
                             img.alt = project.title;
-            
+
                             div.appendChild(img);
                             article.appendChild(div);
                         });
-            
+
                         // solo agregamos el article si tiene hijos válidos
                         if (article.children.length > 0) {
                             section.appendChild(article);
                         }
-                    } 
+                    }
                     // Caso simple (una sola imagen por article)
                     else {
                         const imgData = project.images[articleDef.index];
                         if (!imgData) return; // si no hay imagen, no creamos nada
-            
+
                         const article = document.createElement("article");
-                        article.className = `${articleDef.colSize || imgData.colSize} ${articleDef.format || imgData.format}`;
-            
+                        article.className = `${imgData.colSize || ''} ${articleDef.colSize || ''} ${imgData.format || ''}`.trim();
+
                         const img = document.createElement("img");
                         img.src = imgData.src;
                         img.alt = project.title;
-            
+
                         article.appendChild(img);
                         section.appendChild(article);
                     }
                 });
-            
+
                 // 🔑 solo agregamos la sección si contiene algo
                 if (section.children.length > 0) {
                     imgDetails.appendChild(section);
                 }
             });
-            
 
 
-            // índice anterior y siguiente con efecto carrusel
+
+            // Nav buttons prev-next
             const prevIndex = (projectIndex - 1 + total) % total;
             console.log('prevIndex: ', prevIndex);
             const nextIndex = (projectIndex + 1) % total;
             console.log('nextIndex: ', nextIndex);
 
-            // Aquí podés seguir rellenando la info del proyecto y botones de navegación
+            // Project info
             projectDetail.innerHTML = `
         <article class="col-12 col-md-3 project-description position-md-fixed">
                 <article class="col-12 d-md-none mb-5 lansdcape">

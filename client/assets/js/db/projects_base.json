@@ -114,7 +114,7 @@
             {
                 "src": "./assets/img/IGLESIA/Iglesia-7.webp",
                 "format": "square",
-                "colSize": "col-12 col-md-3",
+                "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-start"
             }
         ],
@@ -122,7 +122,8 @@
             "src": "./assets/img/IGLESIA/Iglesia-6.webp",
             "format": "standard"
         },
-        "imageHover": "./assets/img/HOVER/IGLESIA_Hover.webp"
+        "imageHover": "./assets/img/HOVER/IGLESIA_Hover.webp",
+        "template": 1
     },
     {
         "title": "kafka",
@@ -146,13 +147,13 @@
             {
                 "src": "./assets/img/KAFKA/Kafka-2.webp",
                 "format": "standard",
-                "colSize": "col-12 col-md-5",
+                "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/KAFKA/Kafka-3.webp",
                 "format": "standard",
-                "colSize": "col-12 col-md-4",
+                "colSize": "col-12 col-md-9",
                 "alignment": "justify-content-between"
             }
         ],
@@ -160,7 +161,8 @@
             "src": "./assets/img/KAFKA/Kafka-1.webp",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/KAFKA_Hover.webp"
+        "imageHover": "./assets/img/HOVER/KAFKA_Hover.webp",
+        "template": 3
     },
     {
         "title": "arbet",
@@ -184,7 +186,7 @@
             {
                 "src": "./assets/img/ARBET/Arbet-2.webp",
                 "format": "landscape",
-                "colSize": "col-12 col-md-5",
+                "colSize": "col-12",
                 "alignment": "justify-content-end"
             },
             {
@@ -196,19 +198,19 @@
             {
                 "src": "./assets/img/ARBET/Arbet-4.webp",
                 "format": "portrait",
-                "colSize": "col-12 col-md-8",
+                "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-5.webp",
-                "format": "landscape",
+                "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-6.webp",
-                "format": "portrait",
-                "colSize": "col-12 col-md-5",
+                "format": "landscape",
+                "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-end"
             }
         ],
@@ -216,7 +218,8 @@
             "src": "./assets/img/ARBET/Arbet-2.webp",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/ARBET_Hover.webp"
+        "imageHover": "./assets/img/HOVER/ARBET_Hover.webp",
+        "template": 2
     },
     {
         "title": "austen",
@@ -233,14 +236,14 @@
         "images": [
             {
                 "src": "./assets/img/AUSTEN/Austen-1.webp",
-                "format": "landscape",
+                "format": "standard",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-2.webp",
-                "format": "standard",
-                "colSize": "col-12 col-md-5",
+                "format": "landscape",
+                "colSize": "col-12",
                 "alignment": "justify-content-end"
             },
             {
@@ -251,20 +254,20 @@
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-4.webp",
-                "format": "landscape",
-                "colSize": "col-12 col-md-8",
+                "format": "square",
+                "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-5.webp",
-                "format": "square",
+                "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-6.webp",
-                "format": "portrait",
-                "colSize": "col-12 col-md-5",
+                "format": "standard",
+                "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-end"
             }
         ],
@@ -272,7 +275,8 @@
             "src": "./assets/img/AUSTEN/Austen-6.webp",
             "format": "standard"
         },
-        "imageHover": "./assets/img/HOVER/AUSTEN_Hover.webp"
+        "imageHover": "./assets/img/HOVER/AUSTEN_Hover.webp",
+        "template": 2
     },
     {
         "title": "joyce",
@@ -296,12 +300,12 @@
             {
                 "src": "./assets/img/JOYCE/Joyce-2.webp",
                 "format": "landscape",
-                "colSize": "col-12 col-md-5",
+                "colSize": "col-12",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-3.webp",
-                "format": "standard",
+                "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
@@ -314,7 +318,7 @@
             {
                 "src": "./assets/img/JOYCE/Joyce-5.webp",
                 "format": "standard",
-                "colSize": "col-12 col-md-4",
+                "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-between"
             }
         ],
@@ -322,7 +326,8 @@
             "src": "./assets/img/JOYCE/Joyce-1.webp",
             "format": "standard"
         },
-        "imageHover": "./assets/img/HOVER/JOYCE_Hover.webp"
+        "imageHover": "./assets/img/HOVER/JOYCE_Hover.webp",
+        "template": 1
     },
     {
         "title": "zfdp",
@@ -340,19 +345,19 @@
             {
                 "src": "./assets/img/ZFDP/Zfdp-1.webp",
                 "format": "landscape",
-                "colSize": "col-12 col-md-5",
+                "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/ZFDP/Zfdp-2.webp",
                 "format": "standard",
-                "colSize": "col-12 col-md-5",
+                "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/ZFDP/Zfdp-3.webp",
                 "format": "square",
-                "colSize": "col-12 col-md-4",
+                "colSize": "col-12 col-md-9",
                 "alignment": "justify-content-between"
             }
         ],
@@ -360,6 +365,7 @@
             "src": "./assets/img/ZFDP/Zfdp-1.webp",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/ZFDP_Hover.webp"
+        "imageHover": "./assets/img/HOVER/ZFDP_Hover.webp",
+        "template": 3
     }
 ]

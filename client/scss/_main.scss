@@ -70,7 +70,8 @@ main {
         @extend .mt-5;
         @extend .mt-md-11;
         @extend .mt-xxl-13;
-        min-height: 100vh;
+        // @extend .vh-100;
+        // min-height: 75vh;
     }
 }
 
