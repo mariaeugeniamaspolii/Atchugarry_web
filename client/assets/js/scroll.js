@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     });
 
-    gsap.matchMedia().add("(max-width: 1024px)", () => {
+    gsap.matchMedia().add("(min-width: 1024px)", () => {
         // Animaciones de las imágenes
         const projects = document.querySelectorAll("article");
 
