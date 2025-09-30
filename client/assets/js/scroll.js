@@ -17,9 +17,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             smooth: 1.5,
             effects: true
         });
-    });
-
-    gsap.matchMedia().add("(min-width: 1024px)", () => {
+        
         // Animaciones de las imágenes
         const projects = document.querySelectorAll("article");
 
