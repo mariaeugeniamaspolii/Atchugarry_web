@@ -283,6 +283,16 @@ nav {
             font-size: 14px;
         }
     }
+    
+    @media(max-height:767px) {
+        footer {
+            p {
+                text-wrap: balance !important;
+            }
+        }
+    }
+
+    
 
     .sidebar {
         /* o el ancho que quieras */
@@ -296,8 +306,8 @@ nav {
         position: fixed;
         z-index: 3000;
         pointer-events: none;
-        border: 4px solid $tertiary;
-        border-right: 4px solid $tertiary;
+        border: 12px solid $tertiary;
+        // border-right: 4px solid $tertiary;
     }
 
     @media only screen and (min-width: 992px) {
