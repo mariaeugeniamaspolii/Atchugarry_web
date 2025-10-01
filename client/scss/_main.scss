@@ -281,18 +281,9 @@ nav {
     footer {
         p {
             font-size: 14px;
+            text-wrap: balance !important;
         }
-    }
-    
-    @media(max-height:767px) {
-        footer {
-            p {
-                text-wrap: balance !important;
-            }
-        }
-    }
-
-    
+    }   
 
     .sidebar {
         /* o el ancho que quieras */
