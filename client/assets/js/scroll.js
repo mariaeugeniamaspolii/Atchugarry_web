@@ -40,19 +40,19 @@ document.addEventListener("DOMContentLoaded", async () => {
                     }
                 });
             });
-            texts.forEach(function (p) {
-                gsap.fromTo(p, { opacity: 0.5, y: 50 }, {
-                    opacity: 1,
-                    y: 0,
-                    ease: "none",
-                    scrollTrigger: {
-                        trigger: p,   // en vez de project
-                        start: "top 90%",
-                        end: "top 70%",
-                        scrub: 1,
-                    }
-                });
-            });
+            // texts.forEach(function (p) {
+            //     gsap.fromTo(p, { opacity: 0.5, y: 50 }, {
+            //         opacity: 1,
+            //         y: 0,
+            //         ease: "none",
+            //         scrollTrigger: {
+            //             trigger: p,   // en vez de project
+            //             start: "top 90%",
+            //             end: "top 70%",
+            //             scrub: 1,
+            //         }
+            //     });
+            // });
 
         });
     });
