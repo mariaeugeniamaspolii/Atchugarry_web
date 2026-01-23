@@ -1,0 +1,130 @@
+.slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInUp {
+    0% {
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        visibility: visible;
+        opacity: 0.8;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        visibility: visible;
+        opacity: 0.8;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.fadeInUp {
+    animation: fadeInUp 1.2s cubic-bezier(0.42, 0.14, 0.39, 1) forwards;
+    animation-delay: 2s;
+}
+
+//INTRO SPEEDS TRY
+.fadeInUp-logo {
+    animation: fadeInUpMd 2s forwards;
+    animation-delay: 1.4s;
+}
+
+.fadeInUp-icon {
+    animation: fadeInUpLg 2s cubic-bezier(0.42, 0.14, 0.39, 1) forwards;
+    animation-delay: 1.2s;
+}
+
+@keyframes fadeInUp {
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes fadeInUpMd {
+    to {
+        transform: translateY(-300%);
+    }
+}
+
+@keyframes fadeInUpLg {
+    to {
+        transform: translateY(-2000%);
+    }
+}
+
+@media (max-width: 768px) {
+    @keyframes fadeInUpLg {
+        to {
+            transform: translateY(-1200%);
+        }
+    }
+}
+
+
+
+.slideDown {
+    transform: translateY(-100px);
+    animation: slideDown 1s ease-out forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slideDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.slideUp1 {
+    animation: slideUp 1.2s cubic-bezier(0.42, 0.14, 0.39, 1) forwards;
+    transform: translateY(200%);
+    animation-delay: 2s;
+}
+
+.slideUp2 {
+    animation: slideUp 1s cubic-bezier(0.42, 0.14, 0.39, 1) forwards;
+    transform: translateY(300px);
+    animation-delay: 2s;
+}
+
+@keyframes slideUp {
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.logoLoader path {
+    stroke-dasharray: 120;
+    stroke-dashoffset: 240;
+    animation: svgdraw 1.2s ease-in-out infinite;
+    // animation: svgdraw 1.5s ease-in-out infinite alternate;
+
+}
+
+@keyframes svgdraw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
