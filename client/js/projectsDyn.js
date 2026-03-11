@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // projectsContainer.innerHTML = logoLoader();
 
     setTimeout(() => {
-        fetch('assets/js/db/projects_base.json')
+        fetch('js/db/projects_base.json')
             .then(response => response.json())
             .then(projects => {
 
