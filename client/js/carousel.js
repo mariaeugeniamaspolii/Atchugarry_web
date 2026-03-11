@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById('carousel-container');
 
-    fetch('./assets/js/db/carouselImg.json')
+    fetch('./js/db/carouselImg.json')
         .then(response => response.json())
         .then(images => {
             container.innerHTML = `
