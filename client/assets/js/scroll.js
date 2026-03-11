@@ -10,49 +10,50 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Inicializa GSAP después de que el footer esté cargado
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-    smoother = ScrollSmoother.create({
-        wrapper: '#smooth-wrapper',
-        content: '#smooth-content',
-        smooth: 1.5,
-        effects: true
-    });
-
-    // Animaciones de las imágenes
-    const projects = document.querySelectorAll("article");
-
-    projects.forEach(function (project) {
-        const imgs = project.querySelectorAll("img");
-        const texts = project.querySelectorAll("p");
-
-        imgs.forEach(function (img) {
-            gsap.fromTo(img, {
-                opacity: 0.5,
-                y: 100,
-            }, {
-                opacity: 1,
-                y: 0,
-                ease: "none",
-                scrollTrigger: {
-                    trigger: project,
-                    end: "top bottom",
-                    scrub: 1,
-                }
-            });
+    gsap.matchMedia().add("(min-width: 1025px)", () => {
+        smoother = ScrollSmoother.create({
+            wrapper: '#smooth-wrapper',
+            content: '#smooth-content',
+            smooth: 1.5,
+            effects: true
         });
-        texts.forEach(function (p) {
-            gsap.fromTo(p, {
-                opacity: 0.5,
-                y: 100,
-            }, {
-                opacity: 1,
-                y: 0,
-                ease: "none",
-                scrollTrigger: {
-                    trigger: project,
-                    end: "top bottom",
-                    scrub: 1,
-                }
+        
+        // Animaciones de las imágenes
+        const projects = document.querySelectorAll("article");
+
+        projects.forEach(function (project) {
+            const imgs = project.querySelectorAll("img");
+            const texts = project.querySelectorAll("p");
+
+            imgs.forEach(function (img) {
+                gsap.fromTo(img, {
+                    opacity: 0.5,
+                    y: 100,
+                }, {
+                    opacity: 1,
+                    y: 0,
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: project,
+                        end: "top bottom",
+                        scrub: 1,
+                    }
+                });
             });
+            // texts.forEach(function (p) {
+            //     gsap.fromTo(p, { opacity: 0.5, y: 50 }, {
+            //         opacity: 1,
+            //         y: 0,
+            //         ease: "none",
+            //         scrollTrigger: {
+            //             trigger: p,   // en vez de project
+            //             start: "top 90%",
+            //             end: "top 70%",
+            //             scrub: 1,
+            //         }
+            //     });
+            // });
+
         });
     });
-});
+})

@@ -10,6 +10,7 @@ window.addEventListener("load", () => {
     document.querySelector(".intro-img").classList.add("fadeInUp-img");
     document.querySelector(".intro-logo").classList.add("fadeInUp-logo");
     document.querySelector(".intro-icon").classList.add("fadeInUp-icon");
+    document.querySelector(".home-footer").classList.add("slideInUp");
 
     document.querySelector(".slideDown-element").classList.add("slideDown");
     document.querySelector(".slideUp2-element").classList.add("slideUp2");

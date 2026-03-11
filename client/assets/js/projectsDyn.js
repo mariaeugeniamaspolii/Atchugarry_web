@@ -60,16 +60,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 projects.forEach((project, index) => {
                     // const encodedName = encodeURIComponent(project.title);
-                    const capitalizedTitle = capitalizeWords(project.title);
-                    const encodedName = encodeURIComponent(capitalizedTitle);
+                    const minimizedTitle = project.title;
+                    const encodedName = encodeURIComponent(minimizedTitle);
 
 
                     const article = validArticles[index];
-                    if (!article) return; // por si hay más proyectos que espacios
-                    // <a href="detalle.html?project=${encodedName}">
+                    if (!article) return;
 
                     article.innerHTML = `
-                    <a href="detalle${encodedName}.html">
+                    <a href="detalle.html?project=${minimizedTitle}">
                         <div class="card">
                             <div class="image-container ${project.imageCover.format}">
                                 <img class="card-image base-image" src="${project.imageCover.src}" alt="${project.title}">

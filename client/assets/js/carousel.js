@@ -27,16 +27,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="carousel slide carousel-fade w-100 h-100" data-bs-ride="carousel" data-bs-interval="5000">
                     <div class="carousel-inner h-100">
                         <div class="carousel-item h-100 active">
-                            <img src="assets/img/Component 36.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/Component 36.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item h-100">
-                            <img src="assets/img/Component 37.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/Component 37.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item h-100">
-                            <img src="assets/img/Component 35.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/Component 35.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item h-100">
-                            <img src="assets/img/MACA-planeta_urbano_2024_Paisaje 1.png" class="d-block w-100" alt="...">
+                            <img src="./assets/img/MACA-planeta_urbano_2024_Paisaje 1.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>

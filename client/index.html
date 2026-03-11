@@ -8,8 +8,9 @@
     <meta name="description"
         content="En Atchugarry nos dedicamos a la construcción, arquitectura y diseño de proyectos inmobiliarios. Un equipo experto en proyectos de gran escala.">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/img/logo_atchugarry.png">
+    <!-- Nav Icon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/img/logo-white.svg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/logo-black.svg" media="(prefers-color-scheme: light)">
 
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:title" content="ATCHUGARRY">
@@ -32,7 +33,6 @@
     <script src="./assets/js/bootstrap.bundle.js" defer></script>
 
     <link rel="stylesheet" href="./css/styles.min.css">
-    <!-- <link rel="stylesheet" href="assets/style.css"> -->
 
 </head>
 <style>
@@ -42,11 +42,11 @@
     }
 </style>
 
-<body style="overflow: hidden;">
-    <script src="assets/js/components/header.js"></script>
+<body class="d-flex flex-column" style="min-height: 100vh;overflow: hidden;">
+    <script src="./assets/js/components/header.js"></script>
 
     <div class="intro" style="pointer-events: none;">
-        <img class="intro-img" src="assets/img/MACA/Maca-4.webp" alt="Imagen de introducción">
+        <img class="intro-img" src="./assets/img/MACA/Maca-4.webp" alt="Imagen de introducción">
         <svg class="px-4 px-md-14 position-absolute desktop intro-logo" viewBox="0 0 1465 85" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_12_4)">
@@ -97,15 +97,16 @@
     </div>
 
     <div id="smooth-wrapper">
-        <div id="smooth-content" style="height: fit-content;">
+        <div id="smooth-content" style="height: fit-content; min-height: 100vh;
+        display: flex; flex-direction: column;">
 
             <main class="hero">
-                <section class="row justify-content-between">
-                    <article class="col-12 col-md-7">
-                        <div class="col-12 col-md-6 slideDown-element">
+                <section class="row justify-content-end justify-content-md-between">
+                    <article class="col-12 col-md-11 col-lg-7 d-flex flex-column">
+                        <div class="col-12 col-md-10 col-lg-7 slideDown-element">
                             <p class="body-lg">En <strong>Atchugarry</strong> nos dedicamos a la construcción,
-                                arquitectura y diseño de
-                                proyectos inmobiliarios. Un equipo experto en proyectos de gran escala.
+                                arquitectura y diseño de proyectos inmobiliarios. Un equipo experto en proyectos de gran
+                                escala.
                             </p>
                             <div class="navigation-buttons mt-5">
                                 <a href="proyectos.html">Ver proyectos
@@ -118,31 +119,29 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12 col-md-12 mt-7 mt-md-12 slideUp2-element">
-                            <img src="assets/img/MACA/Maca-8.webp" alt="Imagen secundaria">
+                        <div class="col-7 mt-7 mt-xl-9 slideUp2-element align-self-end tablet desktop">
+                            <img src="./assets/img/MACA/Maca-8.webp" alt="Imagen secundaria">
                         </div>
                     </article>
-                    <article class="col-12 col-md-3 mt-5 mt-md-0 portrait slideUp1-element">
-                        <img src="assets/img/MACA/Maca-7.webp" alt="Imagen secundaria">
+                    <article class="col-6 col-md-3 mt-5 mt-md-0 portrait slideUp1-element">
+                        <img src="./assets/img/MACA/Maca-7.webp" alt="Imagen secundaria">
                     </article>
                 </section>
             </main>
 
-            <div id="footer-content"></div>
-            <div class="mobile" style="height: 80px;"></div>
-            <div class="desktop" style="height: 160px;"></div>
+            <div id="footer-content" class="home-footer"></div>
 
         </div>
     </div>
 
-    <script src="assets/js/scroll.js" type="module"></script>
+    <script src="./assets/js/scroll.js" type="module"></script>
 
     <!-- GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
 
-    <script src="assets/js/home.js" type="module"></script>
+    <script src="./assets/js/home.js" type="module"></script>
 </body>
 
 </html>

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Helvetica Neue ';
+    src: url('../assets/fonts/HelveticaNeue-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue ';
+    src: url('../assets/fonts/HelveticaNeue-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue ';
+    src: url('../assets/fonts/HelveticaNeue-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    font-family: 'Helvetica Neue ', sans-serif !important;
+}
+
+//Colors
+$primary: #000;
+$secondary: #333;
+$tertiary: #13952D;
+$fourth: #111;
+
+$background: #ebebeb;
+
+$light-gray: #e7e7e7;
+$gray: #959595;
+$dark-gray: #e75c00;
+
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "tertiary": $tertiary,
+    "background": $background,
+    "light-gray": $light-gray,
+    "gray": $gray,
+    "dark-gray": $dark-gray,
+    ) !default;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "tertiary": $tertiary,
+    "background": $background,
+    "light-gray": $light-gray,
+
+    ) !default;
+
+
+$spacer: 1rem /4;
+$spacers: (
+    0: 0,
+    1: $spacer, //4
+    2: $spacer * 2, //8
+    3: $spacer * 3, //12
+    4: $spacer * 4, //16
+    5: $spacer * 6, //24
+    6: $spacer * 8, //32
+    7: $spacer * 10, //40
+    8: $spacer * 12, //48
+    9: $spacer * 16, //64
+    10: $spacer * 20,//88
+    11: $spacer * 26,//104
+    12: $spacer * 30,//120
+    13: $spacer * 40,//160
+    14: $spacer * 60,//240
+    15: $spacer * 80,//320
+);
+
+$utilities: (
+    "viewport-height": (property: height,
+        class: vh,
+        values: (50: 50vh,
+            60: 60vh,
+            75: 75vh,
+            85: 85vh,
+            95: 95vh,
+            100: 100vh))) !default;
