@@ -1,11 +1,5 @@
-node_modules
 .sass-cache
-/dist 
-README.md
-
 node_modules
-dist
-dist-ssr
 *.local
 
 # Editor directories and files
