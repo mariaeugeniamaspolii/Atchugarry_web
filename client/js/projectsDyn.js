@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <a href="detalle.html?project=${minimizedTitle}">
                         <div class="card">
                             <div class="image-container ${project.imageCover.format}">
-                                <img class="card-image base-image" src="${project.imageCover.src}" alt="${project.title}">
+                                <img class="card-image base-image" src="${project.imageCover.src}" alt="${project.alt}">
                                 <div class="hover-image bg-background">
                                     <img src="${project.imageHover}" class="hover-image hover-white" alt="Hover Image">
                                 </div>

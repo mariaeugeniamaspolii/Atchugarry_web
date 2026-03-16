@@ -14,42 +14,49 @@
         "images": [
             {
                 "src": "./assets/img/MACA/Maca-1.webp",
+                "alt": "Museo de arte contemporáneo Atchugarry",
                 "format": "landscape",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/MACA/Maca-2.webp",
+                "alt": "Museo de arte contemporáneo Atchugarry",
                 "format": "standard",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/MACA/Maca-3.webp",
+                "alt": "Museo de arte contemporáneo Atchugarry",
                 "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/MACA/Maca-4.webp",
+                "alt": "Museo de arte contemporáneo Atchugarry",
                 "format": "landscape",
                 "colSize": "col-12 col-md-8",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/MACA/Maca-5.webp",
+                "alt": "Museo de arte contemporáneo Atchugarry",
                 "format": "standard",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/MACA/Maca-6.webp",
+                "alt": "Museo de arte contemporáneo Atchugarry",
                 "format": "square",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/MACA/Maca-7.webp",
+                "alt": "Museo de arte contemporáneo Atchugarry",
                 "format": "landscape",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
@@ -57,6 +64,7 @@
         ],
         "imageCover": {
             "src": "./assets/img/MACA/Maca-4.webp",
+            "alt": "Museo de arte contemporáneo Atchugarry",
             "format": "landscape"
         },
         "imageHover": "./assets/img/HOVER/MACA_Hover.webp",
@@ -77,42 +85,49 @@
         "images": [
             {
                 "src": "./assets/img/IGLESIA/Iglesia-1.webp",
+                "alt": "Iglesia de la Transfiguración de Cristo",
                 "format": "square",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-2.webp",
+                "alt": "Iglesia de la Transfiguración de Cristo",
                 "format": "landscape",
                 "colSize": "col-12",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-3.webp",
+                "alt": "Iglesia de la Transfiguración de Cristo",
                 "format": "portrait",
                 "colSize": "col-12 col-md-4 mt-5 mt-md-15",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-4.webp",
+                "alt": "Iglesia de la Transfiguración de Cristo",
                 "format": "square",
                 "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-5.webp",
+                "alt": "Iglesia de la Transfiguración de Cristo",
                 "format": "standard",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-6.webp",
+                "alt": "Iglesia de la Transfiguración de Cristo",
                 "format": "square",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/IGLESIA/Iglesia-7.webp",
+                "alt": "Iglesia de la Transfiguración de Cristo",
                 "format": "square",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-start"
@@ -120,6 +135,7 @@
         ],
         "imageCover": {
             "src": "./assets/img/IGLESIA/Iglesia-5.webp",
+            "alt": "Iglesia de la Transfiguración de Cristo",
             "format": "standard"
         },
         "imageHover": "./assets/img/HOVER/IGLESIA_Hover.webp",
@@ -140,18 +156,21 @@
         "images": [
             {
                 "src": "./assets/img/KAFKA/Kafka-1.webp",
+                "alt": "Kafka",
                 "format": "portrait",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/KAFKA/Kafka-2.webp",
+                "alt": "Kafka",
                 "format": "standard",
                 "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/KAFKA/Kafka-3.webp",
+                "alt": "Kafka",
                 "format": "landscape",
                 "colSize": "col-12 col-md-9",
                 "alignment": "justify-content-between"
@@ -159,6 +178,7 @@
         ],
         "imageCover": {
             "src": "./assets/img/KAFKA/Kafka-1.webp",
+            "alt": "Kafka",
             "format": "portrait"
         },
         "imageHover": "./assets/img/HOVER/KAFKA_Hover.webp",
@@ -179,36 +199,42 @@
         "images": [
             {
                 "src": "./assets/img/ARBET/Arbet-1.webp",
+                "alt": "Arbet",
                 "format": "landscape",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-2.webp",
+                "alt": "Arbet",
                 "format": "landscape",
                 "colSize": "col-12",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-3.webp",
+                "alt": "Arbet",
                 "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-4.webp",
+                "alt": "Arbet",
                 "format": "portrait",
                 "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-5.webp",
+                "alt": "Arbet",
                 "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/ARBET/Arbet-6.webp",
+                "alt": "Arbet",
                 "format": "landscape",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-end"
@@ -216,6 +242,7 @@
         ],
         "imageCover": {
             "src": "./assets/img/ARBET/Arbet-1.webp",
+            "alt": "Arbet",
             "format": "portrait"
         },
         "imageHover": "./assets/img/HOVER/ARBET_Hover.webp",
@@ -236,36 +263,42 @@
         "images": [
             {
                 "src": "./assets/img/AUSTEN/Austen-1.webp",
+                "alt": "Austen",
                 "format": "standard",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-2.webp",
+                "alt": "Austen",
                 "format": "landscape",
                 "colSize": "col-12",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-3.webp",
+                "alt": "Austen",
                 "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-4.webp",
+                "alt": "Austen",
                 "format": "square",
                 "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-5.webp",
+                "alt": "Austen",
                 "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/AUSTEN/Austen-6.webp",
+                "alt": "Austen",
                 "format": "standard",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-end"
@@ -273,6 +306,7 @@
         ],
         "imageCover": {
             "src": "./assets/img/AUSTEN/Austen-5.webp",
+            "alt": "Austen",
             "format": "standard"
         },
         "imageHover": "./assets/img/HOVER/AUSTEN_Hover.webp",
@@ -293,30 +327,35 @@
         "images": [
             {
                 "src": "./assets/img/JOYCE/Joyce-1.webp",
+                "alt": "Joyce",
                 "format": "square",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-2.webp",
+                "alt": "Joyce",
                 "format": "landscape",
                 "colSize": "col-12",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-3.webp",
+                "alt": "Joyce",
                 "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-4.webp",
+                "alt": "Joyce",
                 "format": "landscape",
                 "colSize": "col-12 col-md-8",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/JOYCE/Joyce-5.webp",
+                "alt": "Joyce",
                 "format": "standard",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-between"
@@ -324,6 +363,7 @@
         ],
         "imageCover": {
             "src": "./assets/img/JOYCE/Joyce-1.webp",
+            "alt": "Joyce",
             "format": "standard"
         },
         "imageHover": "./assets/img/HOVER/JOYCE_Hover.webp",
@@ -344,18 +384,21 @@
         "images": [
             {
                 "src": "./assets/img/ZFDP/Zfdp-1.webp",
+                "alt": "Zona Franca del Plata",
                 "format": "landscape",
                 "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-start"
             },
             {
                 "src": "./assets/img/ZFDP/Zfdp-2.webp",
+                "alt": "Zona Franca del Plata",
                 "format": "standard",
                 "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-end"
             },
             {
                 "src": "./assets/img/ZFDP/Zfdp-3.webp",
+                "alt": "Zona Franca del Plata",
                 "format": "landscape",
                 "colSize": "col-12 col-md-9",
                 "alignment": "justify-content-between"
@@ -363,6 +406,7 @@
         ],
         "imageCover": {
             "src": "./assets/img/ZFDP/Zfdp-1.webp",
+            "alt": "Zona Franca del Plata",
             "format": "portrait"
         },
         "imageHover": "./assets/img/HOVER/ZFDP_Hover.webp",
