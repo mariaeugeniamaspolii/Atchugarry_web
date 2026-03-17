@@ -146,9 +146,9 @@
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera **",
+            "structure": "",
             "category": "Torre de vivienda",
-            "client": "Kafka",
+            "client": "Mirtey S.A.",
             "status": "En construcción",
             "location": "Palermo, MVD, UY",
             "year": "2024"
@@ -189,7 +189,7 @@
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera **",
+            "structure": "",
             "category": "Torre de vivienda",
             "client": "Arbet",
             "status": "Finalizado",
@@ -253,7 +253,7 @@
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera **",
+            "structure": "",
             "category": "Torre de vivienda",
             "client": "Austen",
             "status": "Finalizado",
@@ -317,7 +317,7 @@
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera **",
+            "structure": "",
             "category": "Complejo de viviendas",
             "client": "Joyce",
             "status": "Finalizado",
@@ -374,7 +374,7 @@
         "description": {
             "project": "BGP Arquitectura",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera **",
+            "structure": "Atchugarry Ingeniería en Madera",
             "category": "Edificio de oficinas en Zona Franca",
             "client": "Zona Franca del Plata",
             "status": "En construcción",

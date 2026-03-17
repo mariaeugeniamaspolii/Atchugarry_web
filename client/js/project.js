@@ -114,12 +114,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     <strong>${project.description.project}</strong>
                     <p>Construcción</p>
                     <strong>${project.description.construction}</strong>
-                    <p>Estructura</p>
-                    <strong>Atchugarry Ingeniería en Madera</strong>
+                    ${project.description.structure ? `
+                        <p>Estructura</p>
+                        <strong>${project.description.structure}</strong>
+                    ` : ''}
                     <p>Categoría</p>
                     <strong>${project.description.category}</strong>
                     <p>Cliente</p>
-                    <strong>Fundación Pablo Atchugarry</strong>
+                    <strong>${project.description.client}</strong>
                     <p>Estado</p>
                     <strong>${project.description.status}</strong>
                     <p>Locación</p>
