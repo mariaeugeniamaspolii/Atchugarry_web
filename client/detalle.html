@@ -20,8 +20,10 @@
     <title>Atchugarry</title>
 </head>
 <script>
-    document.documentElement.style.overflow = 'hidden';
-    document.body.style.overflow = 'hidden';           
+    document.addEventListener("DOMContentLoaded", () => {
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
+    });          
 </script>
 
 <style>
@@ -35,7 +37,7 @@
 
     <script src="./js/components/header.js"></script>
 
-    <aside class="mt-10 mt-md-11 mt-xxl-13 container">
+    <aside class="mt-10 mt-md-11 mt-xxl-13 container" style="z-index: 1">
         <section class="row justify-content-between" id="project-detail">
             <!-- Contenido dinámico -->
         </section>
