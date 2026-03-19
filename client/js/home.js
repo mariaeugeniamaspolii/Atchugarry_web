@@ -1,4 +1,4 @@
-import { smoother } from '/js/scroll.js';
+import { smoother } from '../js/scroll.js';
 
 document.addEventListener("DOMContentLoaded", () => {
     smoother.paused(true);

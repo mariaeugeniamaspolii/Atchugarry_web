@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
     ])
         .then(([projects, templates]) => {
             imgDetails.classList.remove('vh-100')
-            document.documentElement.style.overflow = ''; 
-            document.body.style.overflow = '';    
+            document.documentElement.style.overflow = '';
+            document.body.style.overflow = '';
             console.log('projects cargados:', projects);   // Ver todos los proyectos
             console.log('templates cargados:', templates);
             // Find project + index
@@ -110,8 +110,10 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h4>${project.title.toUpperCase()}</h4>
                         <p class="d-none d-md-block d-xxl-none">${project.description.year}</p>
                     </div>
-                    <p>Proyecto</p>
-                    <strong>${project.description.project}</strong>
+                    ${project.description.project ? `
+                        <p>Proyecto</p>
+                        <strong>${project.description.project}</strong>
+                    ` : ''}
                     <p>Construcción</p>
                     <strong>${project.description.construction}</strong>
                     ${project.description.structure ? `

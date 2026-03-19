@@ -1,5 +1,5 @@
 // Importar la función loadFooter desde footer.js
-import { loadFooter } from '/js/components/footer.js';
+import { loadFooter } from '../js/components/footer.js';
 
 export let smoother;
 
