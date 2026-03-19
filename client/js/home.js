@@ -2,7 +2,7 @@ import { smoother } from '../js/scroll.js';
 
 document.addEventListener("DOMContentLoaded", () => {
     smoother.paused(true);
-    console.log(smoother.paused());
+    // console.log(smoother.paused());
 })
 
 window.addEventListener("load", () => {
@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         document.documentElement.classList.remove('lock-scroll');
         smoother.paused(false);
-        console.log(smoother.paused());
+        // console.log(smoother.paused());
 
     }, 2000);
 });

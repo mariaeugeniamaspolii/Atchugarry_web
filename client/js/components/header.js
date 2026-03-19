@@ -8,7 +8,7 @@ async function insertarHeader() {
       <header>
         <nav class="navbar navbar-expand-lg py-4 py-xxl-5">
           <div class="container-fluid px-md-6 px-lg-5">
-            <a class="navbar-brand d-lg-none" href="index.html" style="max-width: 200px;">
+            <a class="navbar-brand d-lg-none" href="/" style="max-width: 200px;">
               <img class="object-fit-contain d-none d-md-block" src="/assets/img/logo_atchugarry.svg" alt="Logo">
             <img class="d-md-none object-fit-contain" style="height: 28px;" src="./assets/img/logo-black.svg">
             </a>
@@ -27,7 +27,7 @@ async function insertarHeader() {
                 <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
                 <li class="nav-item"><a class="nav-link" href="experiencia.html">Experiencia</a></li>
                 <li class="nav-item d-none d-lg-block mx-lg-5" style="max-width: 220px">
-                  <a class="navbar-brand" href="index.html">
+                  <a class="navbar-brand" href="/">
                     <img class="object-fit-contain image-fluid" src="./assets/img/logo_atchugarry.svg" alt="Logo at" height="30">
                   </a>
                 </li>

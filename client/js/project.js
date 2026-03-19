@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
             imgDetails.classList.remove('vh-100')
             document.documentElement.style.overflow = '';
             document.body.style.overflow = '';
-            console.log('projects cargados:', projects);   // Ver todos los proyectos
-            console.log('templates cargados:', templates);
+            // console.log('projects cargados:', projects);   // Ver todos los proyectos
+            // console.log('templates cargados:', templates);
             // Find project + index
             const projectIndex = projects.findIndex(p => p.title === projectName.toLowerCase());
             const total = projects.length;
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const templateIndex = project.template || 0;
             const template = templates[templateIndex];
-            console.log('template: ', template);
+            // console.log('template: ', template);
 
             // Limpiamos contenedor de imágenes
             imgDetails.innerHTML = "";
@@ -95,9 +95,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Nav buttons prev-next
             const prevIndex = (projectIndex - 1 + total) % total;
-            console.log('prevIndex: ', prevIndex);
+            // console.log('prevIndex: ', prevIndex);
             const nextIndex = (projectIndex + 1) % total;
-            console.log('nextIndex: ', nextIndex);
+            // console.log('nextIndex: ', nextIndex);
 
             // Project info
             projectDetail.innerHTML = `
