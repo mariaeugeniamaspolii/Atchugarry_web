@@ -10,12 +10,12 @@ async function insertarHeader() {
           <div class="container-fluid px-md-6 px-lg-5">
             <a class="navbar-brand d-lg-none" href="index.html" style="max-width: 200px;">
               <img class="object-fit-contain d-none d-md-block" src="/assets/img/logo_atchugarry.svg" alt="Logo">
-            <img class="d-md-none object-fit-contain" style="height: 28px;" src="/assets/img/logo-black.svg">
+            <img class="d-md-none object-fit-contain" style="height: 28px;" src="./assets/img/logo-black.svg">
             </a>
             <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
               aria-label="Toggle navigation" height="20" style="max-width: 50px;">
-              <svg width="30" height="20" viewBox="0 0 58 55" fill="none" xmlns="//www.w3.org/2000/svg">
+              <svg width="30" height="20" viewBox="0 0 58 55" fill="none" xmlns=http://www.w3.org/2000/svg">
                 <rect y="43" width="58" height="12" fill="black" />
                 <rect y="22" width="58" height="12" fill="black" />
                 <rect width="58" height="12" fill="black" />
