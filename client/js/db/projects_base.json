@@ -4,7 +4,7 @@
         "description": {
             "project": "Arq. Carlos Ott",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera",
+            "structure": "Estructura en Madera",
             "category": "Museo",
             "client": "Fundación Pablo Atchugarry",
             "status": "Finalizado",
@@ -75,7 +75,7 @@
         "description": {
             "project": "Arq. Diego Algorta",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera",
+            "structure": "Estructura en Madera",
             "category": "Iglesia",
             "client": "Iglesia de la Transfiguración de Cristo",
             "status": "Finalizado",
@@ -187,7 +187,7 @@
     {
         "title": "arbet",
         "description": {
-            "project": "Atchugarry",
+            "project": "",
             "construction": "Atchugarry",
             "structure": "",
             "category": "Torre de vivienda",
@@ -374,7 +374,7 @@
         "description": {
             "project": "BGP Arquitectura",
             "construction": "Atchugarry",
-            "structure": "Atchugarry Ingeniería en Madera",
+            "structure": "Estructura en Madera",
             "category": "Edificio de oficinas en Zona Franca",
             "client": "Zona Franca del Plata",
             "status": "En construcción",
