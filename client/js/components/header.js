@@ -24,15 +24,15 @@ async function insertarHeader() {
   
             <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNav">
               <ul class="container-md w-100 justify-content-between navbar-nav mx-lg-auto d-flex flex-lg-row gap-lg-5 text-center bg-background">
-                <li class="nav-item"><a class="nav-link" href="proyectos">Proyectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="experiencia">Experiencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="proyectos/">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="experiencia/">Experiencia</a></li>
                 <li class="nav-item d-none d-lg-block mx-lg-5" style="max-width: 220px">
                   <a class="navbar-brand" href="/">
                     <img class="object-fit-contain image-fluid" src="./assets/img/logo_atchugarry.svg" alt="Logo at" height="30">
                   </a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="madera">ingeniería en madera</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="madera/">ingeniería en madera</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto/">Contacto</a></li>
               </ul>
             </div>
           </div>
