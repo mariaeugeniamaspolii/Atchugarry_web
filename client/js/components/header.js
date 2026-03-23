@@ -27,13 +27,8 @@ async function insertarHeader() {
                 <li class="nav-item"><a class="nav-link" href="/proyectos/">Proyectos</a></li>
                 <li class="nav-item"><a class="nav-link" href="/experiencia/">Experiencia</a></li>
                 <li class="nav-item d-none d-lg-block mx-lg-5" style="max-width: 220px">
-<<<<<<< HEAD
-                  <a class="navbar-brand" href="/">
-                    <img class="object-fit-contain image-fluid" src="./assets/img/logo_atchugarry.svg" alt="Logo at" height="30">
-=======
                   <a class="navbar-brand" href="index.html">
                     <img class="object-fit-contain image-fluid" src="../assets/img/logo_atchugarry.svg" alt="Logo at" height="30">
->>>>>>> dev
                   </a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="/madera/">ingeniería en madera</a></li>
