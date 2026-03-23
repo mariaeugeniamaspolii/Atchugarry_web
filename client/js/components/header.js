@@ -7,10 +7,10 @@ async function insertarHeader() {
     const header = `
       <header>
         <nav class="navbar navbar-expand-lg py-4 py-xxl-5">
-          <d   class="container-fluid px-md-6 px-lg-5">
+          <div class="container-fluid px-md-6 px-lg-5">
             <a class="navbar-brand d-lg-none" href="/" style="max-width: 200px;">
-              <img class="object-fit-contain d-none d-md-block" src="../assets/img/logo_atchugarry.svg" alt="Logo">
-            <img class="d-md-none object-fit-contain" style="height: 28px;" src="../assets/img/logo-black.svg">
+              <img class="object-fit-contain d-none d-md-block" src="/assets/img/logo_atchugarry.svg" alt="Logo">
+            <img class="d-md-none object-fit-contain" style="height: 28px;" src="/assets/img/logo-black.svg">
             </a>
             <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -28,7 +28,7 @@ async function insertarHeader() {
                 <li class="nav-item"><a class="nav-link" href="/experiencia/">Experiencia</a></li>
                 <li class="nav-item d-none d-lg-block mx-lg-5" style="max-width: 220px">
                   <a class="navbar-brand" href="/">
-                    <img class="object-fit-contain image-fluid" src="../assets/img/logo_atchugarry.svg" alt="Logo at" height="30">
+                    <img class="object-fit-contain image-fluid" src="/assets/img/logo_atchugarry.svg" alt="Logo at" height="30">
                   </a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="/madera/">ingeniería en madera</a></li>
