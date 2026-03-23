@@ -129,8 +129,10 @@ a.btn-link {
 
 img {
     width: 100%;
-    height: 100%;
+    // height: 100%;
     object-fit: cover;
+    height: auto;
+    display: block;
 }
 
 h1,
@@ -215,7 +217,7 @@ h6 {
 //desktop
 @media only screen and (min-width: 992px) {
 
-    .mobile{
+    .mobile {
         display: none !important;
     }
 
