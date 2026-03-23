@@ -15,7 +15,7 @@ async function insertarHeader() {
             <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
               aria-label="Toggle navigation" height="20" style="max-width: 50px;">
-              <svg width="30" height="20" viewBox="0 0 58 55" fill="none" xmlns=http://www.w3.org/2000/svg">
+              <svg width="30" height="20" viewBox="0 0 58 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect y="43" width="58" height="12" fill="black" />
                 <rect y="22" width="58" height="12" fill="black" />
                 <rect width="58" height="12" fill="black" />

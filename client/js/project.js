@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="col-auto pe-6">
                             <a href="/detalle/?project=${projects[prevIndex].title}">
                                 <svg width="12" height="14" viewBox="0 0 12 14" fill="none"
-                                    xmlns=http://www.w3.org/2000/svg">
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M12 7.16216L0.999999 7.16216M0.999999 7.16216L4.45714 1M0.999999 7.16216L4.45714 13"
                                         stroke="black" />
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <a href="/detalle/?project=${projects[nextIndex].title}">
                                 siguiente
                                 <svg width="13" height="14" viewBox="0 0 13 14" fill="none"
-                                    xmlns=http://www.w3.org/2000/svg">
+                                    xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.5 6.83784L11.5 6.83784M11.5 6.83784L8.04286 13M11.5 6.83784L8.04286 1"
                                         stroke="black" />
                                 </svg>

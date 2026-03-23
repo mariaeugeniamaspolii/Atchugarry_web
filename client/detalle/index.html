@@ -41,7 +41,7 @@
         );
     </script>
 
-    <script src="./js/components/header.js"></script>
+    <script src="../js/components/header.js"></script>
 
     <aside class="mt-10 mt-md-11 mt-xxl-13 container" style="z-index: 1">
         <section class="row justify-content-between" id="project-detail">
@@ -53,7 +53,7 @@
             <main class="mt-5 mt-md-11 mt-xxl-13 vh-100 detail-imgs" id="detail-imgs">
                 <div class="align-content-center flex-wrap vh-75">
                     <svg class="logoLoader" width="90" height="35" viewBox="-6 0 94 45" fill="none"
-                        xmlns=http://www.w3.org/2000/svg">
+                        xmlns="http://www.w3.org/2000/svg">
                         <path width="100px" height="100px" x="0" y="100" d="M6 55L32 0L58 55" stroke="black"
                             stroke-width="10" />
                     </svg>
@@ -77,6 +77,19 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
 
+    <script src="../js/components/seo.js"></script>
+    <script>
+        // Params
+        const params = new URLSearchParams(window.location.search);
+        const project = params.get('project') || 'proyecto';
+
+        insertarSEO({
+            title: `${project} | ATCHUGARRY`,
+            description: `Conocé el proyecto ${project} de Atchugarry.`,
+            image: `https://atchugarry.uy/assets/img/${project}/${project}-1.webp`,
+            url: `https://atchugarry.uy/detalle/?project=${project}`
+        });
+    </script>
 </body>
 
 </html>
