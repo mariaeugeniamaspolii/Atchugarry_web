@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById('carousel-container');
 
-    fetch('./js/db/carouselImg.json')
+    fetch('../js/db/carouselImg.json')
         .then(response => response.json())
         .then(images => {
             container.innerHTML = `
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const item = document.createElement('div');
                 item.className = `carousel-item h-100 ${index === 0 ? 'active' : ''}`;
                 item.innerHTML = `
-                    <img src="${image.img}" class="d-block w-100 h-100 object-fit-cover" alt="${image.alt}">
+                    <img src="../${image.img}" class="d-block w-100 h-100 object-fit-cover" alt="${image.alt}">
                 `;
                 carouselInner.appendChild(item);
             });

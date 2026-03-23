@@ -7,10 +7,10 @@ async function insertarHeader() {
     const header = `
       <header>
         <nav class="navbar navbar-expand-lg py-4 py-xxl-5">
-          <div class="container-fluid px-md-6 px-lg-5">
-            <a class="navbar-brand d-lg-none" href="/" style="max-width: 200px;">
-              <img class="object-fit-contain d-none d-md-block" src="/assets/img/logo_atchugarry.svg" alt="Logo">
-            <img class="d-md-none object-fit-contain" style="height: 28px;" src="./assets/img/logo-black.svg">
+          <d   class="container-fluid px-md-6 px-lg-5">
+            <a class="navbar-brand d-lg-none" href="index.html" style="max-width: 200px;">
+              <img class="object-fit-contain d-none d-md-block" src="../assets/img/logo_atchugarry.svg" alt="Logo">
+            <img class="d-md-none object-fit-contain" style="height: 28px;" src="../assets/img/logo-black.svg">
             </a>
             <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -24,15 +24,20 @@ async function insertarHeader() {
   
             <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNav">
               <ul class="container-md w-100 justify-content-between navbar-nav mx-lg-auto d-flex flex-lg-row gap-lg-5 text-center bg-background">
-                <li class="nav-item"><a class="nav-link" href="proyectos/">Proyectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="experiencia/">Experiencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="/proyectos/">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/experiencia/">Experiencia</a></li>
                 <li class="nav-item d-none d-lg-block mx-lg-5" style="max-width: 220px">
+<<<<<<< HEAD
                   <a class="navbar-brand" href="/">
                     <img class="object-fit-contain image-fluid" src="./assets/img/logo_atchugarry.svg" alt="Logo at" height="30">
+=======
+                  <a class="navbar-brand" href="index.html">
+                    <img class="object-fit-contain image-fluid" src="../assets/img/logo_atchugarry.svg" alt="Logo at" height="30">
+>>>>>>> dev
                   </a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="madera/">ingeniería en madera</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto/">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="/madera/">ingeniería en madera</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contacto/">Contacto</a></li>
               </ul>
             </div>
           </div>
