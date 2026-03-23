@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                             const img = document.createElement("img");
-                            img.src = imgData.src;
+                            img.src = `../${imgData.src}`;
                             img.alt = project.title;
 
                             div.appendChild(img);
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         article.className = `${imgData.colSize || ''} ${articleDef.colSize || ''} ${imgData.format || ''}`.trim();
 
                         const img = document.createElement("img");
-                        img.src = imgData.src;
+                        img.src = `../${imgData.src}`;
                         img.alt = project.title;
 
                         article.appendChild(img);
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
             projectDetail.innerHTML = `
         <article class="col-12 col-md-3 project-description position-md-fixed">
                 <article class="col-12 d-md-none mb-5 lansdcape">
-                    <img src="${project.images[0].src}" alt="Imagen principal">
+                    <img src="../${project.images[0].src}" alt="Imagen principal">
                 </article>
                 <div class="row body-light">
                     <div class="mb-5 mb-md-5 d-flex align-items-center gap-2">
