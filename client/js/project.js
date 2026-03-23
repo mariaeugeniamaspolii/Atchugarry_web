@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Primero cargamos ambos JSON: proyectos y templates
     Promise.all([
-        fetch('./js/db/projects_base.json').then(res => res.json()),
-        fetch('./js/db/templates.json').then(res => res.json())
+        fetch('../js/db/projects_base.json').then(res => res.json()),
+        fetch('../js/db/templates.json').then(res => res.json())
     ])
         .then(([projects, templates]) => {
             imgDetails.classList.remove('vh-100')
