@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             article.classList.add('col-12', 'col-md-4', 'slideInUp');
 
             article.innerHTML = `
-                <a href="detalle.html?project=${projectNameEncoded}">
+                <a href="/detalle/?project=${projectNameEncoded}">
                     <div class="card">
                         <div class="image-container ${project.format}">
                             <img class="card-image base-image" src="${project.images[0]}" alt="${project.title}">

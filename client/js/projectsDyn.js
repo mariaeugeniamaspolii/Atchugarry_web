@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (!article) return;
 
                     article.innerHTML = `
-                    <a href="detalle.html?project=${minimizedTitle}">
+                    <a href="/detalle/?project=${minimizedTitle}">
                         <div class="card">
                             <div class="image-container ${project.imageCover.format}">
                                 <img class="card-image base-image" src="../${project.imageCover.src}" alt="${project.alt}">

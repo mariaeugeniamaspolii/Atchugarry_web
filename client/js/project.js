@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row navigation-buttons position-fixed py-5 py-lg-0" style=" bottom: 20px;">
                     <div class="navigation-buttons-div row">
                         <div class="col-auto pe-6">
-                            <a href="detalle.html?project=${projects[prevIndex].title}">
+                            <a href="/detalle/?project=${projects[prevIndex].title}">
                                 <svg width="12" height="14" viewBox="0 0 12 14" fill="none"
                                     xmlns=http://www.w3.org/2000/svg">
                                     <path
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             </a>
                         </div>
                         <div class="col-auto ps-6">
-                            <a href="detalle.html?project=${projects[nextIndex].title}">
+                            <a href="/detalle/?project=${projects[nextIndex].title}">
                                 siguiente
                                 <svg width="13" height="14" viewBox="0 0 13 14" fill="none"
                                     xmlns=http://www.w3.org/2000/svg">

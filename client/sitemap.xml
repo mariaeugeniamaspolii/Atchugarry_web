@@ -6,49 +6,49 @@
     </url>
 
     <url>
-        <loc>https://atchugarry.uy/proyectos.html</loc>
+        <loc>https://atchugarry.uy/proyectos/</loc>
     </url>
 
     <url>
-        <loc>https://atchugarry.uy/experiencia.html</loc>
+        <loc>https://atchugarry.uy/experiencia/</loc>
     </url>
 
     <url>
-        <loc>https://atchugarry.uy/madera.html</loc>
+        <loc>https://atchugarry.uy/madera/</loc>
     </url>
 
     <url>
-        <loc>https://atchugarry.uy/contacto.html</loc>
+        <loc>https://atchugarry.uy/contacto/</loc>
     </url>
 
     <!-- Detalle de proyectos -->
 
     <url>
-        <loc>https://atchugarry.uy/detalle.html?project=maca</loc>
-    </url>
-    
-        <url>
-            <loc>https://atchugarry.uy/detalle.html?project=iglesia</loc>
-        </url>
-
-    <url>
-        <loc>https://atchugarry.uy/detalle.html?project=kafka</loc>
+        <loc>https://atchugarry.uy/detalle/?project=maca</loc>
     </url>
 
     <url>
-        <loc>https://atchugarry.uy/detalle.html?project=arbet</loc>
+        <loc>https://atchugarry.uy/detalle/?project=iglesia</loc>
     </url>
 
     <url>
-        <loc>https://atchugarry.uy/detalle.html?project=austen</loc>
+        <loc>https://atchugarry.uy/detalle/?project=kafka</loc>
     </url>
 
     <url>
-        <loc>https://atchugarry.uy/detalle.html?project=joyce</loc>
+        <loc>https://atchugarry.uy/detalle/?project=arbet</loc>
     </url>
 
     <url>
-        <loc>https://atchugarry.uy/detalle.html?project=zfdp</loc>
+        <loc>https://atchugarry.uy/detalle/?project=austen</loc>
+    </url>
+
+    <url>
+        <loc>https://atchugarry.uy/detalle/?project=joyce</loc>
+    </url>
+
+    <url>
+        <loc>https://atchugarry.uy/detalle/?project=zfdp</loc>
     </url>
 
 </urlset>
