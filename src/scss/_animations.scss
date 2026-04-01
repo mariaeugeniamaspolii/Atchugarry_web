@@ -128,3 +128,67 @@
         stroke-dashoffset: 0;
     }
 }
+
+
+// 50 AÑOS ATCHUGARRY HOME INTRO
+.logo-animation-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number-front {
+    z-index: 10;
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    transform: scale(0.95);
+    animation: appear50 0.5s ease-out forwards;
+}
+
+@keyframes appear50 {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.text-reveal-window {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.text-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    opacity: .7;
+    /* Empieza fuera a la izquierda */
+    animation: slideText 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+
+@keyframes slideText {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.text-behind {
+    width: 100%;
+    height: 100%;
+}
