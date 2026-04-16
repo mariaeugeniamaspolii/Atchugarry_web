@@ -4,9 +4,18 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('../js/db/carouselImg.json')
         .then(response => response.json())
         .then(images => {
+            // ✅ NUEVO: wrapper con overlay
             container.innerHTML = `
-                <div class="carousel slide carousel-fade w-100 h-100" data-bs-ride="carousel" data-bs-interval="5000">
-                    <div class="carousel-inner h-100" id="carousel-inner"></div>
+                <div class="carousel-wrapper">
+                    <!-- SVG encima -->
+                    <div class="carousel-overlay">
+                        <img src="../assets/img/50.svg" alt="">
+                    </div>
+                    
+                    <!-- Carousel -->
+                    <div class="carousel slide carousel-fade w-100 h-100" data-bs-ride="carousel" data-bs-interval="5000">
+                        <div class="carousel-inner h-100" id="carousel-inner"></div>
+                    </div>
                 </div>
             `;
 
@@ -23,20 +32,18 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => {
             console.error('Error loading JSON data:', error);
+            // Fallback con mismo wrapper
             container.innerHTML = `
-                <div class="carousel slide carousel-fade w-100 h-100" data-bs-ride="carousel" data-bs-interval="5000">
-                    <div class="carousel-inner h-100">
-                        <div class="carousel-item h-100 active">
-                            <img src="./assets/img/Component 36.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item h-100">
-                            <img src="./assets/img/Component 37.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item h-100">
-                            <img src="./assets/img/Component 35.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item h-100">
-                            <img src="./assets/img/MACA-planeta_urbano_2024_Paisaje 1.png" class="d-block w-100" alt="...">
+                <div class="carousel-wrapper">
+                    <div class="carousel-overlay">
+                        <img src="../assets/img/50.svg" alt="">
+                    </div>
+                    <div class="carousel slide carousel-fade w-100 h-100" data-bs-ride="carousel" data-bs-interval="5000">
+                        <div class="carousel-inner h-100">
+                            <div class="carousel-item h-100 active">
+                                <img src="./assets/img/Component 36.png" class="d-block w-100" alt="...">
+                            </div>
+                            <!-- ... resto de items ... -->
                         </div>
                     </div>
                 </div>
