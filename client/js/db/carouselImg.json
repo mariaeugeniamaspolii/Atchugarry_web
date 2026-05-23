@@ -1,6 +1,7 @@
 [
-    {"img":"./assets/img/MACA/Maca-4.webp", "alt":"img1"},
-    {"img":"./assets/img/MACA/Maca-7.webp", "alt":"img2"},
-    {"img":"./assets/img/MACA/Maca-8.webp", "alt":"img3"},
-    {"img":"./assets/img/MADERA/Madera-7.webp", "alt":"img4"}
+    {"img":"./assets/img/MACA/Maca-7.webp", "alt":"Maca"},
+    {"img":"./assets/img/ARBET/Arbet-6.webp", "alt":"Arbet"},
+    {"img":"./assets/img/MACA/Maca-4.webp", "alt":"Maca"},
+    {"img":"./assets/img/IGLESIA/Iglesia-1.webp", "alt":"Iglesia"},
+    {"img":"./assets/img/MACA/Maca-8.webp", "alt":"Maca"}
 ]
