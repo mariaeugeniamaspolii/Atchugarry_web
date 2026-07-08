@@ -333,6 +333,8 @@ nav {
             display: block;
             text-transform: none !important;
             font-weight: 300 !important;
+            word-break: break-word;
+            @extend .pe-5;
 
             &:hover {
                 @extend .text-decoration-underline;
