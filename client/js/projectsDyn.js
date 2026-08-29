@@ -53,22 +53,56 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <article class="col-12 col-md-4">
             </article>
+        </section>
+
+        <section class="row">
+            <article class="col-12 col-md-6">
+            </article>
+
+            <article class="col-0 col-md-1">
+            </article>
+
+            <article class="col-12 col-md-4">
+            </article>
+
+            <article class="col-0 col-md-1">
+            </article>
+        </section>
+
+        <section class="row align-items-end">
+            <article class="col-12 col-md-4">
+            </article>
+
+            <article class="col-0 col-md-2">
+            </article>
+
+            <article class="col-12 col-md-5">
+            </article>
+        </section>
+
+        <section class="row justify-content-end">
+            <article class="col-12 col-md-5">
+            </article>
+
+            <article class="col-0 col-md-2">
+            </article>
+
+            <article class="col-12 col-md-4">
+            </article>
         </section>`;
 
                 const allArticles = document.querySelectorAll("main article");
                 const validArticles = Array.from(allArticles).filter(article => !article.classList.contains("col-0"));
 
                 projects.forEach((project, index) => {
-                    // const encodedName = encodeURIComponent(project.title);
-                    const minimizedTitle = project.title;
-                    const encodedName = encodeURIComponent(minimizedTitle);
+                    const slug = project.slug;
 
 
                     const article = validArticles[index];
                     if (!article) return;
 
                     article.innerHTML = `
-                    <a href="/detalle/?project=${minimizedTitle}">
+                    <a href="/detalle/?project=${slug}">
                         <div class="card">
                             <div class="image-container ${project.imageCover.format}">
                                 <img class="card-image base-image" src="../${project.imageCover.src}" alt="${project.alt}">

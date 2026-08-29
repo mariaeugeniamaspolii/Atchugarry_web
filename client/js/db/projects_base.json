@@ -1,6 +1,7 @@
 [
     {
         "title": "maca",
+        "slug": "maca",
         "description": {
             "project": "Arq. Carlos Ott",
             "construction": "Atchugarry",
@@ -72,6 +73,7 @@
     },
     {
         "title": "iglesia",
+        "slug": "iglesia",
         "description": {
             "project": "Arq. Diego Algorta",
             "construction": "Atchugarry",
@@ -143,13 +145,14 @@
     },
     {
         "title": "kafka",
+        "slug": "kafka",
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
             "structure": "",
             "category": "Torre de vivienda",
             "client": "Mirtey S.A.",
-            "status": "En construcción",
+            "status": "Finalizado",
             "location": "Palermo, MVD, UY",
             "year": "2024"
         },
@@ -186,6 +189,7 @@
     },
     {
         "title": "arbet",
+        "slug": "arbet",
         "description": {
             "project": "",
             "construction": "Atchugarry",
@@ -250,6 +254,7 @@
     },
     {
         "title": "austen",
+        "slug": "austen",
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
@@ -314,6 +319,7 @@
     },
     {
         "title": "joyce",
+        "slug": "joyce",
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
@@ -371,6 +377,7 @@
     },
     {
         "title": "zfdp",
+        "slug": "zfdp",
         "description": {
             "project": "BGP Arquitectura",
             "construction": "Atchugarry",
@@ -411,5 +418,179 @@
         },
         "imageHover": "./assets/img/HOVER/ZFDP_Hover.webp",
         "template": 3
+    },
+    {
+        "title": "kfc",
+        "slug": "kfc",
+        "description": {
+            "project": "",
+            "construction": "Atchugarry",
+            "structure": "",
+            "category": "Local comercial",
+            "client": "KFC",
+            "status": "Finalizado",
+            "location": "Punta Carretas, Montevideo, UY",
+            "year": "2025"
+        },
+        "images": [
+            {
+                "src": "./assets/img/KFC/KFC-1.webp",
+                "alt": "KFC",
+                "format": "landscape",
+                "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-start"
+            },
+            {
+                "src": "./assets/img/KFC/KFC-2.webp",
+                "alt": "KFC",
+                "format": "standard",
+                "colSize": "col-12 col-md-8",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/KFC/KFC-3.webp",
+                "alt": "KFC",
+                "format": "portrait",
+                "colSize": "col-12 col-md-4",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/KFC/KFC-4.webp",
+                "alt": "KFC",
+                "format": "portrait",
+                "colSize": "col-12 col-md-8",
+                "alignment": "justify-content-center"
+            },
+            {
+                "src": "./assets/img/KFC/KFC-5.webp",
+                "alt": "KFC",
+                "format": "portrait",
+                "colSize": "col-12 col-md-4",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/KFC/KFC-6.webp",
+                "alt": "KFC",
+                "format": "standard",
+                "colSize": "col-12 col-md-5",
+                "alignment": "justify-content-start"
+            }
+        ],
+        "imageCover": {
+            "src": "./assets/img/KFC/KFC-1.webp",
+            "alt": "KFC",
+            "format": "landscape"
+        },
+        "imageHover": "./assets/img/HOVER/KFC_Hover.webp",
+        "template": 1
+    },
+    {
+        "title": "pueblo mío",
+        "slug": "pueblo-mio",
+        "description": {
+            "project": "Tenue",
+            "construction": "Atchugarry",
+            "structure": "",
+            "category": "Vivienda",
+            "client": "",
+            "status": "Finalizado",
+            "location": "Pueblo Mío, Punta del Este, UY",
+            "year": "2026"
+        },
+        "images": [
+            {
+                "src": "./assets/img/PUEBLOMIO/PuebloMio-1.webp",
+                "alt": "Pueblo Mío",
+                "format": "standard",
+                "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-start"
+            },
+            {
+                "src": "./assets/img/PUEBLOMIO/PuebloMio-2.webp",
+                "alt": "Pueblo Mío",
+                "format": "standard",
+                "colSize": "col-12 col-md-4",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/PUEBLOMIO/PuebloMio-3.webp",
+                "alt": "Pueblo Mío",
+                "format": "portrait",
+                "colSize": "col-12 col-md-4",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/PUEBLOMIO/PuebloMio-4.webp",
+                "alt": "Pueblo Mío",
+                "format": "portrait",
+                "colSize": "col-12 col-md-5",
+                "alignment": "justify-content-center"
+            },
+            {
+                "src": "./assets/img/PUEBLOMIO/PuebloMio-5.webp",
+                "alt": "Pueblo Mío",
+                "format": "landscape",
+                "colSize": "col-12 col-md-4",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/PUEBLOMIO/PuebloMio-6.webp",
+                "alt": "Pueblo Mío",
+                "format": "standard",
+                "colSize": "col-12 col-md-6",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/PUEBLOMIO/PuebloMio-7.webp",
+                "alt": "Pueblo Mío",
+                "format": "standard",
+                "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-start"
+            },
+            {
+                "src": "./assets/img/PUEBLOMIO/PuebloMio-8.webp",
+                "alt": "Pueblo Mío",
+                "format": "standard",
+                "colSize": "col-12",
+                "alignment": "justify-content-end"
+            }
+        ],
+        "imageCover": {
+            "src": "./assets/img/PUEBLOMIO/PuebloMio-1.webp",
+            "alt": "Pueblo Mío",
+            "format": "standard"
+        },
+        "imageHover": "./assets/img/HOVER/PUEBLEMIO_Hover.webp",
+        "template": 0
+    },
+    {
+        "title": "institución estatal",
+        "slug": "institucion-estatal",
+        "description": {
+            "project": "",
+            "construction": "Atchugarry - Atchugarry Ingeniería en Madera",
+            "structure": "",
+            "category": "Institucional",
+            "client": "",
+            "status": "Finalizado",
+            "location": "Ciudad Vieja, Montevideo, UY",
+            "year": "2025"
+        },
+        "images": [
+            {
+                "src": "./assets/img/MACA/Maca-4.webp",
+                "alt": "Institución Estatal",
+                "format": "landscape",
+                "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-start"
+            }
+        ],
+        "imageCover": {
+            "src": "./assets/img/MACA/Maca-4.webp",
+            "alt": "Institución Estatal",
+            "format": "landscape"
+        },
+        "imageHover": "./assets/img/HOVER/INSTITUCIONESTATAL_Hover.webp",
+        "template": 0
     }
 ]

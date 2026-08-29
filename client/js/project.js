@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
-    const projectName = urlParams.get('project') || "maca";
-
-    // Change page title "Atchugarry - [Name project]"
-    document.title = `${projectName.replace(/\b\w/g, (char) => char.toUpperCase())}`;
+    const projectSlug = urlParams.get('project') || "maca";
 
     // Contenedor de proyecto
     const projectDetail = document.getElementById("project-detail");
@@ -21,13 +18,18 @@ document.addEventListener("DOMContentLoaded", function () {
             // console.log('projects cargados:', projects);   // Ver todos los proyectos
             // console.log('templates cargados:', templates);
             // Find project + index
-            const projectIndex = projects.findIndex(p => p.title === projectName.toLowerCase());
+            const projectIndex = projects.findIndex(p => p.slug === projectSlug.toLowerCase());
             const total = projects.length;
             const project = projects[projectIndex];
             if (projectIndex === -1) {
                 projectDetail.innerHTML = "<p>Proyecto no encontrado.</p>";
                 return;
             }
+
+            document.title = project.title.replace(
+                /(^|\s)\p{L}/gu,
+                char => char.toUpperCase()
+            );
 
             const templateIndex = project.template || 0;
             const template = templates[templateIndex];
@@ -134,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row navigation-buttons position-fixed py-5 py-lg-0" style=" bottom: 20px;">
                     <div class="navigation-buttons-div row">
                         <div class="col-auto pe-6">
-                            <a href="/detalle/?project=${projects[prevIndex].title}">
+                            <a href="/detalle/?project=${projects[prevIndex].slug}">
                                 <svg width="12" height="14" viewBox="0 0 12 14" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -145,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             </a>
                         </div>
                         <div class="col-auto ps-6">
-                            <a href="/detalle/?project=${projects[nextIndex].title}">
+                            <a href="/detalle/?project=${projects[nextIndex].slug}">
                                 siguiente
                                 <svg width="13" height="14" viewBox="0 0 13 14" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">

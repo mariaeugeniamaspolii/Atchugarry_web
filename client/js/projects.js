@@ -20,12 +20,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Recorrer cada proyecto y generar el HTML correspondiente
         projects.forEach(project => {
-            const projectNameEncoded = encodeURIComponent(project.title);
+            const slug = project.slug;
             const article = document.createElement('article');
             article.classList.add('col-12', 'col-md-4', 'slideInUp');
 
             article.innerHTML = `
-                <a href="/detalle/?project=${projectNameEncoded}">
+                <a href="/detalle/?project=${slug}">
                     <div class="card">
                         <div class="image-container ${project.format}">
                             <img class="card-image base-image" src="${project.images[0]}" alt="${project.title}">

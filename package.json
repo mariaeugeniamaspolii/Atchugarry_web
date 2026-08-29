@@ -5,6 +5,10 @@
     "bootstrap": "^5.3.3"
   },
   "scripts": {
+    "dev": "serve client -l 51044",
     "build": "rm -rf dist && mkdir dist && cp -r css dist/css && cp -r assets dist/assets && cp *.html dist/ && cp robots.txt dist/"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
   }
 }
