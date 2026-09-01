@@ -56,13 +56,13 @@ document.addEventListener("DOMContentLoaded", () => {
         </section>
 
         <section class="row">
-            <article class="col-12 col-md-6">
+            <article class="col-12 col-md-4">
             </article>
 
             <article class="col-0 col-md-1">
             </article>
 
-            <article class="col-12 col-md-4">
+            <article class="col-12 col-md-6">
             </article>
 
             <article class="col-0 col-md-1">
@@ -88,6 +88,28 @@ document.addEventListener("DOMContentLoaded", () => {
             </article>
 
             <article class="col-12 col-md-4">
+            </article>
+        </section>
+
+        <section class="row">
+            <article class="col-12 col-md-6">
+            </article>
+
+            <article class="col-0 col-md-1">
+            </article>
+
+            <article class="col-12 col-md-4">
+            </article>
+        </section>
+
+        <section class="row align-items-end">
+            <article class="col-12 col-md-4">
+            </article>
+
+            <article class="col-0 col-md-2">
+            </article>
+
+            <article class="col-12 col-md-5">
             </article>
         </section>`;
 

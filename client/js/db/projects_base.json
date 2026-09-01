@@ -458,7 +458,7 @@
                 "src": "./assets/img/KFC/KFC-4.webp",
                 "alt": "KFC",
                 "format": "portrait",
-                "colSize": "col-12 col-md-8",
+                "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-center"
             },
             {
@@ -471,15 +471,15 @@
             {
                 "src": "./assets/img/KFC/KFC-6.webp",
                 "alt": "KFC",
-                "format": "standard",
+                "format": "landscape",
                 "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-start"
             }
         ],
         "imageCover": {
-            "src": "./assets/img/KFC/KFC-1.webp",
+            "src": "./assets/img/KFC/KFC-4.webp",
             "alt": "KFC",
-            "format": "landscape"
+            "format": "portrait"
         },
         "imageHover": "./assets/img/HOVER/KFC_Hover.webp",
         "template": 1
@@ -508,8 +508,8 @@
             {
                 "src": "./assets/img/PUEBLOMIO/PuebloMio-2.webp",
                 "alt": "Pueblo Mío",
-                "format": "standard",
-                "colSize": "col-12 col-md-4",
+                "format": "landscape",
+                "colSize": "col-12 col-md-5",
                 "alignment": "justify-content-end"
             },
             {
@@ -522,14 +522,14 @@
             {
                 "src": "./assets/img/PUEBLOMIO/PuebloMio-4.webp",
                 "alt": "Pueblo Mío",
-                "format": "portrait",
-                "colSize": "col-12 col-md-5",
+                "format": "landscape",
+                "colSize": "col-12 col-md-6",
                 "alignment": "justify-content-center"
             },
             {
                 "src": "./assets/img/PUEBLOMIO/PuebloMio-5.webp",
                 "alt": "Pueblo Mío",
-                "format": "landscape",
+                "format": "portrait",
                 "colSize": "col-12 col-md-4",
                 "alignment": "justify-content-between"
             },
@@ -543,7 +543,7 @@
             {
                 "src": "./assets/img/PUEBLOMIO/PuebloMio-7.webp",
                 "alt": "Pueblo Mío",
-                "format": "standard",
+                "format": "landscape",
                 "colSize": "col-12 col-md-7",
                 "alignment": "justify-content-start"
             },
@@ -556,41 +556,148 @@
             }
         ],
         "imageCover": {
-            "src": "./assets/img/PUEBLOMIO/PuebloMio-1.webp",
+            "src": "./assets/img/PUEBLOMIO/PuebloMio-8.webp",
             "alt": "Pueblo Mío",
-            "format": "standard"
+            "format": "landscape"
         },
         "imageHover": "./assets/img/HOVER/PUEBLEMIO_Hover.webp",
         "template": 0
     },
     {
-        "title": "institución estatal",
-        "slug": "institucion-estatal",
+        "title": "anv",
+        "slug": "anv",
         "description": {
             "project": "",
-            "construction": "Atchugarry - Atchugarry Ingeniería en Madera",
+            "construction": "Atchugarry",
             "structure": "",
-            "category": "Institucional",
+            "category": "",
             "client": "",
             "status": "Finalizado",
-            "location": "Ciudad Vieja, Montevideo, UY",
-            "year": "2025"
+            "location": "",
+            "year": ""
         },
         "images": [
             {
-                "src": "./assets/img/MACA/Maca-4.webp",
-                "alt": "Institución Estatal",
+                "src": "./assets/img/ANV/ANV-1.webp",
+                "alt": "ANV",
+                "format": "landscape",
+                "colSize": "col-12 col-md-8",
+                "alignment": "justify-content-start"
+            },
+            {
+                "src": "./assets/img/ANV/ANV-2.webp",
+                "alt": "ANV",
+                "format": "portrait",
+                "colSize": "col-12 col-md-3",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/ANV/ANV-3.webp",
+                "alt": "ANV",
                 "format": "landscape",
                 "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-center"
+            },
+            {
+                "src": "./assets/img/ANV/ANV-4.webp",
+                "alt": "ANV",
+                "format": "portrait",
+                "colSize": "col-12 col-md-3",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/ANV/ANV-5.webp",
+                "alt": "ANV",
+                "format": "portrait",
+                "colSize": "col-12 col-md-3",
                 "alignment": "justify-content-start"
+            },
+            {
+                "src": "./assets/img/ANV/ANV-6.webp",
+                "alt": "ANV",
+                "format": "portrait",
+                "colSize": "col-12 col-md-4",
+                "alignment": "justify-content-end"
             }
         ],
         "imageCover": {
-            "src": "./assets/img/MACA/Maca-4.webp",
-            "alt": "Institución Estatal",
-            "format": "landscape"
+            "src": "./assets/img/ANV/ANV-7.webp",
+            "alt": "ANV",
+            "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/INSTITUCIONESTATAL_Hover.webp",
-        "template": 0
+        "imageHover": "./assets/img/HOVER/MACA_Hover.webp",
+        "template": 3
+    },
+    {
+        "title": "libertador",
+        "slug": "libertador",
+        "description": {
+            "project": "",
+            "construction": "Atchugarry",
+            "structure": "",
+            "category": "",
+            "client": "",
+            "status": "Finalizado",
+            "location": "",
+            "year": ""
+        },
+        "images": [
+            {
+                "src": "./assets/img/LIBERTADOR/Libertador-1.webp",
+                "alt": "Libertador",
+                "format": "landscape",
+                "colSize": "col-12 col-md-8",
+                "alignment": "justify-content-start"
+            },
+            {
+                "src": "./assets/img/LIBERTADOR/Libertador-2.webp",
+                "alt": "Libertador",
+                "format": "standard",
+                "colSize": "col-12",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/LIBERTADOR/Libertador-3.webp",
+                "alt": "Libertador",
+                "format": "portrait",
+                "colSize": "col-12 col-md-3",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/LIBERTADOR/Libertador-4.webp",
+                "alt": "Libertador",
+                "format": "standard",
+                "colSize": "col-12 col-md-12",
+                "alignment": "justify-content-center"
+            },
+            {
+                "src": "./assets/img/LIBERTADOR/Libertador-5.webp",
+                "alt": "Libertador",
+                "format": "landscape",
+                "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/LIBERTADOR/Libertador-6.webp",
+                "alt": "Libertador",
+                "format": "standard",
+                "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-start"
+            },
+            {
+                "src": "./assets/img/LIBERTADOR/Libertador-7.webp",
+                "alt": "Libertador",
+                "format": "portrait",
+                "colSize": "col-12 col-md-4",
+                "alignment": "justify-content-end"
+            }
+        ],
+        "imageCover": {
+            "src": "./assets/img/LIBERTADOR/Libertador-7.webp",
+            "alt": "Libertador",
+            "format": "portrait"
+        },
+        "imageHover": "./assets/img/HOVER/IGLESIA_Hover.webp",
+        "template": 1
     }
 ]

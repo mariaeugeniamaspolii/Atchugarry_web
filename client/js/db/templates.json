@@ -20,7 +20,7 @@
             ]
         },
         {
-            "alignment": "row justify-content-center mt-5 mt-md-15",
+            "alignment": "row justify-content-center mt-5 mt-md-13",
             "articles": [
                 {
                     "index": 3
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "alignment": "row justify-content-between align-items-end mt-5 mt-md-15 gap-5 gap-md-13",
+            "alignment": "row justify-content-between align-items-end mt-5 mt-md-13 gap-5 gap-md-13",
             "articles": [
                 {
                     "index": 4
@@ -39,7 +39,7 @@
             ]
         },
         {
-            "alignment": "row justify-content-end mt-5 mt-md-15",
+            "alignment": "row justify-content-end mt-5 mt-md-13",
             "articles": [
                 {
                     "index": 6
@@ -67,18 +67,18 @@
                         },
                         {
                             "index": 3,
-                            "wrapperClass": "col-12 col-md-6 mt-5 mt-md-15"
+                            "wrapperClass": "col-12 col-md-6 mt-5 mt-md-14"
                         }
                     ]
                 },
                 {
                     "index": 2,
-                    "colSize": "col-12 col-md-4 mt-5 mt-md-15"
+                    "colSize": "col-12 col-md-3 mt-5 mt-md-11"
                 }
             ]
         },
         {
-            "alignment": "row justify-content-end mt-5 mt-md-15",
+            "alignment": "row justify-content-end mt-5 mt-md-11",
             "articles": [
                 {
                     "index": 4
@@ -86,7 +86,7 @@
             ]
         },
         {
-            "alignment": "row justify-content-between align-items-end mt-5 mt-md-15",
+            "alignment": "row justify-content-between align-items-end mt-5 mt-md-11",
             "articles": [
                 {
                     "index": 5
@@ -129,7 +129,7 @@
             ]
         },
         {
-            "alignment": "row justify-content-between mt-5 mt-md-15",
+            "alignment": "row justify-content-between mt-5 mt-md-10",
             "articles": [
                 {
                     "index": 4,
@@ -152,7 +152,7 @@
             ]
         },
         {
-            "alignment": "row mt-5 mt-md-15",
+            "alignment": "row mt-5 mt-md-12",
             "articles": [
                 {
                     "index": 1
@@ -160,10 +160,31 @@
             ]
         },
         {
-            "alignment": "row justify-content-end mt-5 mt-md-15",
+            "alignment": "row justify-content-center mt-5 mt-md-12",
             "articles": [
                 {
                     "index": 2
+                }
+            ]
+        },
+        {
+            "alignment": "row justify-content-end mt-5 mt-md-12 gap-5 gap-md-13",
+            "articles": [
+                {
+                    "index": 3,
+                    "colSize": "mt-md-0"
+                },
+                {
+                    "index": 4,
+                    "colSize": "mt-5 mt-md-0"
+                }
+            ]
+        },
+                {
+            "alignment": "row justify-content-center mt-5 mt-md-12",
+            "articles": [
+                {
+                    "index": 5
                 }
             ]
         }
