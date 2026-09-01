@@ -69,13 +69,13 @@ document.addEventListener("DOMContentLoaded", () => {
             </article>
         </section>
 
-        <section class="row align-items-end justify-content-start">
+        <section class="row align-items-start justify-content-between">
             <article class="col-0 col-md-1">
             </article>
             
             <article class="col-12 col-md-3">
             </article>
-            <article class="col-0 col-md-1">
+            <article class="col-0 col-md-2">
             </article>
             
             <article class="col-12 col-md-4">
