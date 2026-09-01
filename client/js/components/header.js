@@ -48,7 +48,7 @@ function marcarMenuActivo() {
 
     document.querySelectorAll(".navbar-nav .nav-link").forEach(link => {
         const href = link.getAttribute("href");
-        if (href && path.startsWith(href)) {
+        if (href && (path.startsWith(href) || (href === "/proyectos/" && path.startsWith("/detalle/")))) {
             link.classList.add("active");
         }
     });
