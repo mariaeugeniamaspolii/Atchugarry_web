@@ -44,11 +44,11 @@ async function insertarHeader() {
 }
 
 function marcarMenuActivo() {
-    const path = window.location.pathname;
+    const path = window.location.pathname.replace(/\/+$/, "") || "/";
 
     document.querySelectorAll(".navbar-nav .nav-link").forEach(link => {
-        const href = link.getAttribute("href");
-        if (href && (path.startsWith(href) || (href === "/proyectos/" && path.startsWith("/detalle/")))) {
+        const href = (link.getAttribute("href") || "").replace(/\/+$/, "");
+        if (href && (path.startsWith(href) || (href === "/proyectos" && path.startsWith("/detalle")))) {
             link.classList.add("active");
         }
     });
