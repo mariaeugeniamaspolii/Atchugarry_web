@@ -45,16 +45,10 @@ async function insertarHeader() {
 
 function marcarMenuActivo() {
     const path = window.location.pathname;
-    const page = path.split("/").pop();
-    let activeHref = page;
-
-    // Si estás en una página detalle, marcar como activo "proyectos.html"
-    if (page.includes("detalle")) {
-        activeHref = "proyectos.html";
-    }
 
     document.querySelectorAll(".navbar-nav .nav-link").forEach(link => {
-        if (link.getAttribute("href") === activeHref) {
+        const href = link.getAttribute("href");
+        if (href && path.startsWith(href)) {
             link.classList.add("active");
         }
     });
