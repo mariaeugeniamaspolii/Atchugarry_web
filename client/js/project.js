@@ -110,28 +110,40 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="row body-light">
                     <div class="mb-5 mb-md-5 d-flex align-items-center gap-2">
                         <h4>${project.title.toUpperCase()}</h4>
-                        <p class="d-none d-md-block d-xxl-none">${project.description.year}</p>
+                        ${project.description.year ? `<p class="d-none d-md-block d-xxl-none">${project.description.year}</p>` : ''}
                     </div>
                     ${project.description.project ? `
                         <p>Proyecto</p>
                         <strong>${project.description.project}</strong>
                     ` : ''}
-                    <p>Construcción</p>
-                    <strong>${project.description.construction}</strong>
+                    ${project.description.construction ? `
+                        <p>Construcción</p>
+                        <strong>${project.description.construction}</strong>
+                    ` : ''}
                     ${project.description.structure ? `
                         <p>Estructura</p>
                         <strong>${project.description.structure}</strong>
                     ` : ''}
-                    <p>Categoría</p>
-                    <strong>${project.description.category}</strong>
-                    <p>Cliente</p>
-                    <strong>${project.description.client}</strong>
-                    <p>Estado</p>
-                    <strong>${project.description.status}</strong>
-                    <p>Locación</p>
-                    <strong>${project.description.location}</strong>
-                    <p class="d-md-none d-xxl-block">Año</p>
-                    <strong class="d-md-none d-xxl-block">${project.description.year}</strong>
+                    ${project.description.category ? `
+                        <p>Categoría</p>
+                        <strong>${project.description.category}</strong>
+                    ` : ''}
+                    ${project.description.client ? `
+                        <p>Cliente</p>
+                        <strong>${project.description.client}</strong>
+                    ` : ''}
+                    ${project.description.status ? `
+                        <p>Estado</p>
+                        <strong>${project.description.status}</strong>
+                    ` : ''}
+                    ${project.description.location ? `
+                        <p>Locación</p>
+                        <strong>${project.description.location}</strong>
+                    ` : ''}
+                    ${project.description.year ? `
+                        <p class="d-md-none d-xxl-block">Año</p>
+                        <strong class="d-md-none d-xxl-block">${project.description.year}</strong>
+                    ` : ''}
                 </div>
                     <div class="row navigation-buttons position-fixed py-5 py-lg-0" style=" bottom: 20px;">
                     <div class="navigation-buttons-div row">
