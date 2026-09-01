@@ -2,6 +2,7 @@
     {
         "title": "maca",
         "slug": "maca",
+        "template": 0,
         "description": {
             "project": "Arq. Carlos Ott",
             "construction": "Atchugarry",
@@ -68,12 +69,12 @@
             "alt": "Museo de arte contemporáneo Atchugarry",
             "format": "landscape"
         },
-        "imageHover": "./assets/img/HOVER/MACA_Hover.webp",
-        "template": 0
+        "imageHover": "./assets/img/HOVER/MACA_Hover.webp"
     },
     {
         "title": "iglesia",
         "slug": "iglesia",
+        "template": 1,
         "description": {
             "project": "Arq. Diego Algorta",
             "construction": "Atchugarry",
@@ -140,12 +141,12 @@
             "alt": "Iglesia de la Transfiguración de Cristo",
             "format": "standard"
         },
-        "imageHover": "./assets/img/HOVER/IGLESIA_Hover.webp",
-        "template": 1
+        "imageHover": "./assets/img/HOVER/IGLESIA_Hover.webp"
     },
     {
         "title": "kafka",
         "slug": "kafka",
+        "template": 3,
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
@@ -174,7 +175,42 @@
             {
                 "src": "./assets/img/KAFKA/Kafka-3.webp",
                 "alt": "Kafka",
-                "format": "landscape",
+                "format": "portrait",
+                "colSize": "col-12 col-md-5",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/KAFKA/Kafka-4.webp",
+                "alt": "Kafka",
+                "format": "portrait",
+                "colSize": "col-12 col-md-3",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/KAFKA/Kafka-5.webp",
+                "alt": "Kafka",
+                "format": "portrait",
+                "colSize": "col-12 col-md-3",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/KAFKA/Kafka-6.webp",
+                "alt": "Kafka",
+                "format": "standard",
+                "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/KAFKA/Kafka-7.webp",
+                "alt": "Kafka",
+                "format": "standard",
+                "colSize": "col-12 col-md-7",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/KAFKA/Kafka-8.webp",
+                "alt": "Kafka",
+                "format": "standard",
                 "colSize": "col-12 col-md-9",
                 "alignment": "justify-content-between"
             }
@@ -184,12 +220,12 @@
             "alt": "Kafka",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/KAFKA_Hover.webp",
-        "template": 3
+        "imageHover": "./assets/img/HOVER/KAFKA_Hover.webp"
     },
     {
         "title": "arbet",
         "slug": "arbet",
+        "template": 2,
         "description": {
             "project": "",
             "construction": "Atchugarry",
@@ -249,12 +285,12 @@
             "alt": "Arbet",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/ARBET_Hover.webp",
-        "template": 2
+        "imageHover": "./assets/img/HOVER/ARBET_Hover.webp"
     },
     {
         "title": "austen",
         "slug": "austen",
+        "template": 2,
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
@@ -314,12 +350,12 @@
             "alt": "Austen",
             "format": "standard"
         },
-        "imageHover": "./assets/img/HOVER/AUSTEN_Hover.webp",
-        "template": 2
+        "imageHover": "./assets/img/HOVER/AUSTEN_Hover.webp"
     },
     {
         "title": "joyce",
         "slug": "joyce",
+        "template": 1,
         "description": {
             "project": "Atchugarry",
             "construction": "Atchugarry",
@@ -372,12 +408,12 @@
             "alt": "Joyce",
             "format": "standard"
         },
-        "imageHover": "./assets/img/HOVER/JOYCE_Hover.webp",
-        "template": 1
+        "imageHover": "./assets/img/HOVER/JOYCE_Hover.webp"
     },
     {
         "title": "zfdp",
         "slug": "zfdp",
+        "template": 0,
         "description": {
             "project": "BGP Arquitectura",
             "construction": "Atchugarry",
@@ -406,8 +442,43 @@
             {
                 "src": "./assets/img/ZFDP/Zfdp-3.webp",
                 "alt": "Zona Franca del Plata",
+                "format": "portrait",
+                "colSize": "col-12 col-md-4",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/ZFDP/Zfdp-4.webp",
+                "alt": "Zona Franca del Plata",
+                "format": "standard",
+                "colSize": "col-12 col-md-5",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/ZFDP/Zfdp-5.webp",
+                "alt": "Zona Franca del Plata",
                 "format": "landscape",
-                "colSize": "col-12 col-md-9",
+                "colSize": "col-12 col-md-8",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/ZFDP/Zfdp-6.webp",
+                "alt": "Zona Franca del Plata",
+                "format": "portrait",
+                "colSize": "col-12 col-md-3",
+                "alignment": "justify-content-end"
+            },
+            {
+                "src": "./assets/img/ZFDP/Zfdp-7.webp",
+                "alt": "Zona Franca del Plata",
+                "format": "portrait",
+                "colSize": "col-12 col-md-5",
+                "alignment": "justify-content-between"
+            },
+            {
+                "src": "./assets/img/ZFDP/Zfdp-8.webp",
+                "alt": "Zona Franca del Plata",
+                "format": "portrait",
+                "colSize": "col-12 col-md-3",
                 "alignment": "justify-content-between"
             }
         ],
@@ -416,12 +487,12 @@
             "alt": "Zona Franca del Plata",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/ZFDP_Hover.webp",
-        "template": 3
+        "imageHover": "./assets/img/HOVER/ZFDP_Hover.webp"
     },
     {
         "title": "kfc",
         "slug": "kfc",
+        "template": 1,
         "description": {
             "project": "",
             "construction": "Atchugarry",
@@ -481,12 +552,12 @@
             "alt": "KFC",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/KFC_Hover.webp",
-        "template": 1
+        "imageHover": "./assets/img/HOVER/KFC_Hover.webp"
     },
     {
         "title": "pueblo mío",
         "slug": "pueblo-mio",
+        "template": 0,
         "description": {
             "project": "Tenue",
             "construction": "Atchugarry",
@@ -550,8 +621,8 @@
             {
                 "src": "./assets/img/PUEBLOMIO/PuebloMio-8.webp",
                 "alt": "Pueblo Mío",
-                "format": "standard",
-                "colSize": "col-12",
+                "format": "landscape",
+                "colSize": "col-12 col-md-8",
                 "alignment": "justify-content-end"
             }
         ],
@@ -560,12 +631,12 @@
             "alt": "Pueblo Mío",
             "format": "landscape"
         },
-        "imageHover": "./assets/img/HOVER/PUEBLEMIO_Hover.webp",
-        "template": 0
+        "imageHover": "./assets/img/HOVER/PUEBLEMIO_Hover.webp"
     },
     {
         "title": "anv",
         "slug": "anv",
+        "template": 3,
         "description": {
             "project": "",
             "construction": "Atchugarry",
@@ -625,12 +696,12 @@
             "alt": "ANV",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/MACA_Hover.webp",
-        "template": 3
+        "imageHover": "./assets/img/HOVER/MACA_Hover.webp"
     },
     {
         "title": "libertador",
         "slug": "libertador",
+        "template": 1,
         "description": {
             "project": "",
             "construction": "Atchugarry",
@@ -697,7 +768,6 @@
             "alt": "Libertador",
             "format": "portrait"
         },
-        "imageHover": "./assets/img/HOVER/IGLESIA_Hover.webp",
-        "template": 1
+        "imageHover": "./assets/img/HOVER/IGLESIA_Hover.webp"
     }
 ]
