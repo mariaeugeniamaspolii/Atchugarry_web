@@ -78,39 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <article class="col-12 col-md-5">
             </article>
-        </section>
-
-        <section class="row justify-content-end">
-            <article class="col-12 col-md-5">
-            </article>
-
-            <article class="col-0 col-md-2">
-            </article>
-
-            <article class="col-12 col-md-4">
-            </article>
-        </section>
-
-        <section class="row">
-            <article class="col-12 col-md-6">
-            </article>
-
-            <article class="col-0 col-md-1">
-            </article>
-
-            <article class="col-12 col-md-4">
-            </article>
-        </section>
-
-        <section class="row align-items-end">
-            <article class="col-12 col-md-4">
-            </article>
-
-            <article class="col-0 col-md-2">
-            </article>
-
-            <article class="col-12 col-md-5">
-            </article>
         </section>`;
 
                 const allArticles = document.querySelectorAll("main article");
