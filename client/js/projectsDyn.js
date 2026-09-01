@@ -69,16 +69,19 @@ document.addEventListener("DOMContentLoaded", () => {
             </article>
         </section>
 
-        <section class="row align-items-end">
+        <section class="row align-items-end justify-content-start">
+            <article class="col-0 col-md-1">
+            </article>
+            
+            <article class="col-12 col-md-3">
+            </article>
+            <article class="col-0 col-md-1">
+            </article>
+            
             <article class="col-12 col-md-4">
             </article>
 
-            <article class="col-0 col-md-2">
-            </article>
-
-            <article class="col-12 col-md-5">
-            </article>
-        </section>`;
+            </section>`;
 
                 const allArticles = document.querySelectorAll("main article");
                 const validArticles = Array.from(allArticles).filter(article => !article.classList.contains("col-0"));
@@ -107,11 +110,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 `;
                 })
             })
-            
-        }, 3000)
-        setTimeout(() => {
-            const footerContainer = document.getElementById('footer-content');
-            footerContainer.classList.add('d-block')
-            footerContainer.classList.remove('d-none')
-        }, 4000)
+
+    }, 3000)
+    setTimeout(() => {
+        const footerContainer = document.getElementById('footer-content');
+        footerContainer.classList.add('d-block')
+        footerContainer.classList.remove('d-none')
+    }, 4000)
 })
